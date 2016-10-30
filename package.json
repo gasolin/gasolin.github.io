@@ -1,0 +1,17 @@
+{
+  "name": "gasolinidv",
+  "version": "0.1.0",
+  "description": "gasolin homepage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gasolin",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^1.0.2"
+  }
+}
