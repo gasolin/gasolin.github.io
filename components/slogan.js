@@ -1,5 +1,9 @@
 import React from 'react';
 
+// The Software Engineer and Tech writer who has experience to lead the laser-focus team to develop Mobile/Desktop coorperated product.
+// I'm currently focus on Web app and frontend, but also have work experience on web backend, Android, and Network.
+// I'm the organizer of Taipei Google Developer Group (GDG) which focus on share trending web and mobile technologies.
+
 function Slogan(props) {
   return (
     <div>
