@@ -97,6 +97,12 @@ Help breeding TG2 in its early stage, ex. Porting paster commands for TurboGears
   <div className="col-md-4">
 		<h4>Web</h4>
 		<ul>
+      <li><a href="https://github.com/gasolin/generator-360-photo">generator-360-photo</a> : <br/>
+      Generator to create a web based 360 photo skeleton with aframe. (Creator, 2016)
+      </li>
+      <li><a href="https://github.com/gasolin/saihubot">Saihubot</a> : <br/>
+      Compact Chat bot runs in the Browser. (Creator, 2016)
+      </li>
       <li><a href="https://github.com/gasolin/foxbox">FoxBox</a> : <br/>
 			Auto-configured FirefoxOS build environment in VM. (Creator, 2014)
 			</li>
