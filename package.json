@@ -1,6 +1,6 @@
 {
   "name": "gasolinidv",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "description": "gasolin homepage",
   "main": "index.js",
   "scripts": {

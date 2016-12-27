@@ -3,8 +3,8 @@ import React from 'react';
 function Portfolio() {
   return (
     <div>
-      <div classNameName="row">
-        <div classNameName="col-md-12">
+      <div className="row">
+        <div className="col-md-12">
           <h2>Projects</h2>
         </div>
       </div>
@@ -57,15 +57,20 @@ function Portfolio() {
         <h4>Python</h4>
         <ul>
           <li><a href="http://zhpy.googlecode.com">ZHPY(周蟒)</a> : <br/>
-          Designed and evangelized the Python Language in Chinese. (中文版Python程式語言)(Creator, 2007~2013):
+          Designed and evangelized the Python Language in Chinese.
+          (中文版Python程式語言)(Creator, 2007~2013):
           </li>
           <li><a href="http://www.turbogears.org/">TurboGears</a> : <br/>
           The rapid web development megaframework. (Committer & doc site editor, 2005~2007):
-          Designed, developed, and maintain TGCrud, a customizable editor/crud interface generator based on Model.
+          Designed, developed, and maintain TGCrud,
+          a customizable editor/crud interface generator based on Model.
 
-    Contribute several TurboGears 1.x plugins, such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate.
+    Contribute several TurboGears 1.x plugins,
+    such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate.
 
-    Help breeding TG2 in its early stage, ex. Porting paster commands for TurboGears 2, and facilitating the docs migration from wiki to sphinx doc system.</li>
+    Help breeding TG2 in its early stage,
+    ex. Porting paster commands for TurboGears 2,
+    and facilitating the docs migration from wiki to sphinx doc system.</li>
           <li><a href="http://code.google.com/p/google-app-engine-oil/">google-app-engine-oil</a> : <br/>
           Yet another web framework on App Engine(Committer, 2008~2010)</li>
         </ul>
@@ -97,7 +102,8 @@ function Portfolio() {
           Auto-configured FirefoxOS build environment in VM. (Creator, 2014)
           </li>
           <li><a href="https://github.com/webapplate/webapplate">webapplate</a> : <br/>
-          A Mobile First Web App fromework that help you quickly start the mobile web app development. (Creator, 2013~)
+          A Mobile First Web App fromework that help you quickly start
+          the mobile web app development. (Creator, 2013~2016)
           </li>
           <li><a href="http://code.google.com/p/blockly/">Gaia</a> : <br/>
           Web-based system platform of Firefox OS. (Commiter, 2013~)
@@ -115,7 +121,8 @@ function Portfolio() {
         <ul>
           <li><a href="https://github.com/gasolin/webbybot">Webbybot</a> : chatterbot written in es6 (es2015), compatible with hubot (Creator, 2016) </li>
           <li><a href="https://github.com/gasolin/webbymouse">WebbyMouse</a> : <br/>
-          Turn your mobile phone into Air Mouse and touchpad with full web technology . (Creator, 2015)
+          Turn your mobile phone into Air Mouse and touchpad with full web technology.
+          (Creator, 2015)
           </li>
         </ul>
       </div>
@@ -152,18 +159,27 @@ function Portfolio() {
     <div className="col-md-6">
           <h4>Journals</h4>
           <ol>
-              <li>Major Lee, Fred Lin, and Han-Chieh Chao, Routing Optimization over Network Mobility with Distributed Home Agents as the Cross Layer Considerationon, TCS, 2008</li>
-              <li>Yun-Sheng Yen, Fred Lin, and Han-Chieh Chao, Residential Gateway with RFID and P2P Community" published on Transaction, Comsumer Electronics, 2005</li>
+              <li>Major Lee, Fred Lin, and Han-Chieh Chao, Routing Optimization over
+                  Network Mobility with Distributed Home Agents
+                  as the Cross Layer Considerationon, TCS, 2008</li>
+              <li>Yun-Sheng Yen, Fred Lin, and Han-Chieh Chao, Residential Gateway with
+                  RFID and P2P Community"
+                  published on Transaction, Comsumer Electronics, 2005</li>
           </ol>
           </div>
     <div className="col-md-6">
           <h4>Papers</h4>
           <ol>
-              <li>Fred Lin, Andrew Chang, and Han-Chieh Chao, Hybrid LAN Network Mobility with Distributed Home Agents, wcc05</li>
-              <li>Yun-Sheng Yen, Chia-Chang Hsu, Fred Lin, Han-Chieh Chao, Global Dynamic Home Agent Discovery on Mobile IPv6, wcc05</li>
-              <li>Simba Yen , Fred Lin, and Han-Chieh Chao , Integrated Residential Gateway: Easy IA management with P2P Community Using RFID, ICACT2005</li>
-              <li>Fred Lin, Crota Chen and Han-Chieh Chao, Personal Internetworking Using P2P Architecture over IPv6 (ICACT2005 conditionally accepted)</li>
-              <li>Fred Lin and Han-Chieh Chao, Security Impact of the emerging IPv6 network (新世代網路IPv6的安全衝擊), TANET, 2004</li>
+              <li>Fred Lin, Andrew Chang, and Han-Chieh Chao, Hybrid LAN Network Mobility
+                  with Distributed Home Agents, wcc05</li>
+              <li>Yun-Sheng Yen, Chia-Chang Hsu, Fred Lin, Han-Chieh Chao, Global Dynamic
+                  Home Agent Discovery on Mobile IPv6, wcc05</li>
+              <li>Simba Yen , Fred Lin, and Han-Chieh Chao , Integrated Residential
+                  Gateway: Easy IA management with P2P Community Using RFID, ICACT2005</li>
+              <li>Fred Lin, Crota Chen and Han-Chieh Chao, Personal Internetworking
+                  Using P2P Architecture over IPv6 (ICACT2005 conditionally accepted)</li>
+              <li>Fred Lin and Han-Chieh Chao, Security Impact of the emerging IPv6
+                  network (新世代網路IPv6的安全衝擊), TANET, 2004</li>
           </ol>
           </div><div className="col-md-6">
           <h4>Media Exposion</h4>

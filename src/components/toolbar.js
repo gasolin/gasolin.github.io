@@ -1,8 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
 import { menubar } from '../constants';
 import {
   Link,
-  IndexLink,
 } from 'react-router';
 
 // from http://brandonlehr.com/bootstrap-tabs-react-router-and-the-active-class/

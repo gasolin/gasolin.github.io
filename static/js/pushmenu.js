@@ -1,5 +1,6 @@
+/* globals: $ */
 // from http://jsbin.com/seqola/2/edit?html,css,js,output
-$(document).ready(function () {
+$(document).ready(function() {
     //stick in the fixed 100% height behind the navbar but don't wrap it
     $('#slide-nav.navbar-inverse').after($('<div class="inverse" id="navbar-height-col"></div>'));
     $('#slide-nav.navbar-default').after($('<div id="navbar-height-col"></div>'));  
@@ -14,7 +15,7 @@ $(document).ready(function () {
     var slideneg = '-80%';
 
     $("#slide-nav").on("click", toggler, function (e) {
-      var selected = $(this).hasClass('slide-active');
+      const selected = $(this).hasClass('slide-active');
 
       $('#slidemenu').stop().animate({
         left: selected ? menuneg : '0px'
@@ -37,9 +38,9 @@ $(document).ready(function () {
       $('#page-content, .navbar, body, .navbar-header').toggleClass('slide-active');
     });
 
-    var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
+    const selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
 
-    $(window).on("resize", function () {
+    $(window).on('resize', function () {
       if ($(window).width() > 767 && $('.navbar-toggle').is(':hidden')) {
         $(selected).removeClass('slide-active');
       }

@@ -20,7 +20,7 @@ function Present() {
         <ul>
           <li><a href="http://www.slideshare.net/gasolin/javascript-48212668">Javascript, world domanation</a> (30min), Modern Web 2015/5/19</li>
         </ul>
-      </div> 
+      </div>
       <div className="col-md-6">
         <h3 id="2014">2014</h3>
         <ul>
@@ -39,7 +39,7 @@ function Present() {
           <li><a href="http://www.slideshare.net/gasolin/make-web-as-webapp">Make web as webapp (1hr)</a>, GTUG Taipei, 2013/5/8</li>
           <li><a href="http://www.slideshare.net/gasolin/firefox-os-overview-17792569">FirefoxOS Overview (3hr)</a>, NCKU CSIE, 2013/3/27</li>
         </ul>
-      </div> 
+      </div>
       <div className="col-md-6">
         <h3 id="2012">2012</h3>
         <ul>
@@ -70,7 +70,8 @@ function Present() {
         <ul>
           <li>Introduction of Google App Engine (1hr), Taipei GTUG, 2010/12/7</li>
           <li><a href="http://www.slideshare.net/gasolin/introduction-of-distributed-version-control-system">Introduction of Mercurial, the Distributed Version Control System (1hr)</a>, TWJUG, 2010/12/4</li>
-          <li>Android Programming(Android 應用程式設計, 12hr), Chong-Hwa Telecom Training Center, 2010/3/13~3/14</li>
+          <li>Android Programming(Android 應用程式設計, 12hr),
+              Chong-Hwa Telecom Training Center, 2010/3/13~3/14</li>
           <li>Introduction of GoogleCode and Mercurial (1hr), Taipei GTUG, 2010/02/03</li>
         </ul>
       </div>
@@ -80,8 +81,10 @@ function Present() {
           <li>Navigation of Chrome OS (Chrome OS 導讀, 20 min), Taipei GTUG, 2009/11/25</li>
           <li><a href="http://www.openfoundry.org/workshop/details/61-kalug--android-">Introduction of Android Application development</a>(KaLug! Android 應用程式設計入門, 6 hr, OSSF in Kaushung, 2009/11/22</li>
           <li><a href="http://www.youtube.com/watch?v=rq4VyXntpBI">Introduction of Android Scripting Environment (Android Scripting Environment 簡介, 30 min)</a>, Coscup 09, 2009/8/16</li>
-          <li>The basis of Android application development(Android 應用程式開發基礎, 3 hr), Dept of IM in Nanya Institude of Technology(南亞資管系), 2009/5/21</li>    
-          <li>The difference of Android Programming (comparing with other OS) (Android 應用程式設計大不同, 2 hr), Tossug 2009/4/7</li>
+          <li>The basis of Android application development(Android 應用程式開發基礎, 3 hr),
+              Dept of IM in Nanya Institude of Technology(南亞資管系), 2009/5/21</li>
+          <li>The difference of Android Programming (comparing with other OS)
+              (Android 應用程式設計大不同, 2 hr), Tossug 2009/4/7</li>
         </ul>
       </div>
       <div className="col-md-6">
@@ -98,7 +101,8 @@ function Present() {
         <ul>
           <li>Introduction of ZHPY (周蟒簡介, 5 min), Lightening talk on Coscup 07 2007/11/3</li>
           <li>Test-Driven Python for dummies (Test-Driven Python 懶人包, 30 min), OSDC.tw 07</li>
-          <li>Introduction of TurboGears Web Mega-Framework (TurboGears 入門, 2 hr), Tossug, 2007/5/22</li>
+          <li>Introduction of TurboGears Web Mega-Framework (TurboGears 入門, 2 hr),
+              Tossug, 2007/5/22</li>
         </ul>
       </div>
       </div>
