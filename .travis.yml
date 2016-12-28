@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "6"
+
+before_install:
+  - git config --global push.default matching
+  - git config --global user.name "gasolin via Travis CI"
+  - git config --global user.email "gasolin@gmail.com"
+
+install:
+  - npm install
+
+script:
+  - npm run deploy
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - node_modules
