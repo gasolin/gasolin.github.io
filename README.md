@@ -9,6 +9,10 @@ Clone the repo, then
 
 ```sh
 $ npm install
-$ npm build
+$ npm run build
 ```
 
+Deploy
+====
+
+Just commit to github and travis will do the rest.
