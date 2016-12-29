@@ -143,7 +143,6 @@ function Resume() {
       <h3>Certificate<img src="/static/images/tag.png"/></h3>
       <ul>
           <li>TOEIC(Test of English for International Communication): <span className="label label-gold">890</span> (Gold), 2014</li>
-          <li><a href="http://smarterer.com/FredLin">Score of my skill sets</a></li>
       </ul>
       </div>
   </div>
