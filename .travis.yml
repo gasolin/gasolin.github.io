@@ -16,7 +16,7 @@ script:
 
 branches:
   only:
-    - master
+    - source
 
 cache:
   directories:
