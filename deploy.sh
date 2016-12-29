@@ -2,8 +2,6 @@
 
 cd build
 git init
-git config user.name "gasolin via Travis CI"
-git config user.email gasolin@gmail.com
 git add -A
 git commit -m "Site updated: $(date + "%D %H-%M")"
 
