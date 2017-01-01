@@ -13,6 +13,7 @@ function Present() {
         <h3 id="2016">2016</h3>
         <ul>
           <li><a href="http://blog.gasolin.idv.tw/2016/08/blog-post.html">聊天機器人，不加咖啡</a> (20min), Coscup 2016/8/21</li>
+          <li><a href="http://moztw.kktix.cc/events/91d7bca0">好孩子的第一次挑戰 WebVR 就快快樂樂上手 workshop, MozTw 2016/5/19</a></li>
         </ul>
       </div>
       <div className="col-md-6">
