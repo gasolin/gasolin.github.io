@@ -5,7 +5,7 @@ function Footer() {
     <div className="row">
       <div className="col-lg-12">
         <br/>
-        ©2009~2016 by <a href="http://www.gasolin.idv.tw">gasolin</a>
+        ©2009~2017 by <a href="http://www.gasolin.idv.tw">gasolin</a>
       </div>
     </div>
   );
