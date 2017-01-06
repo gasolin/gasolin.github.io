@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 function Home() {
   return (
@@ -6,7 +7,9 @@ function Home() {
       <tbody>
       <tr>
         <td>
-          <a href="/personal/resume"><img src="/static/images/resume2.png" alt="Resume (履歷)"/></a>
+          <Link to="/personal/resume">
+            <img src="/static/images/resume2.png" alt="Resume (履歷)"/>
+          </Link>
         </td>
         <td>
           <a href="https://profiles.google.com/gasolin/about"><img src="/static/images/gprofile.png" alt="Profile"/></a>
