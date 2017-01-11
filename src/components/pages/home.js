@@ -24,8 +24,6 @@ function Home() {
       <tr>
         <td><font size="small">Resume<br/>(履歷)</font>
         </td>
-        <td><font size="small">google+<br/>(公開資訊)</font>
-        </td>
         <td><font size="small">Blog<br/>(部落格)</font>
         </td>
         <td><font size="small">QR Code</font>
