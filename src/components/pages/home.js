@@ -12,9 +12,6 @@ function Home() {
           </Link>
         </td>
         <td>
-          <a href="https://profiles.google.com/gasolin/about"><img src="/static/images/gprofile.png" alt="Profile"/></a>
-        </td>
-        <td>
           <a href="http://blog.gasolin.idv.tw"><img src="/static/images/blog2.png" alt="Blog"/></a>
         </td>
         <td>
