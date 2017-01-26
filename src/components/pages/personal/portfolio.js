@@ -96,7 +96,7 @@ function Portfolio() {
           Generator to create a web based 360 photo skeleton with aframe. (Creator, 2016)
           </li>
           <li><a href="https://github.com/gasolin/saihubot">Saihubot</a> : <br/>
-          Compact Chat bot runs in the Browser. (Creator, 2016)
+          Chat bot framework runs in the Browser. (Creator, 2016~)
           </li>
           <li><a href="https://github.com/gasolin/foxbox">FoxBox</a> : <br/>
           Auto-configured FirefoxOS build environment in VM. (Creator, 2014)
