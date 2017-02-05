@@ -1,5 +1,56 @@
 import React from 'react';
 
+const data = [
+  {
+    year: 2016,
+    presents: [
+      {
+        title: '聊天機器人，不加咖啡',
+        date: '2016/8/21',
+        place: 'Coscup',
+        link: 'http://blog.gasolin.idv.tw/2016/08/blog-post.html',
+        time: '20min',
+      },
+      {
+        title: '好孩子的第一次挑戰 WebVR 就快快樂樂上手',
+        date: '2016/5/19',
+        place: 'workshop at MozTw',
+        link: 'http://moztw.kktix.cc/events/91d7bca0',
+        time: '30min',
+      },
+    ],
+  },
+  {
+    year: 2015,
+    presents: [
+      {
+        title: 'Javascript,征服世界是可能的嗎？ (Javascript, world domanation)',
+        date: '2015/5/19',
+        place: 'Modern Web',
+        link: 'http://www.slideshare.net/gasolin/javascript-48212668',
+        time: '30min',
+      },
+    ],
+  },
+];
+
+function presentsList(presents) {
+  return presents.map(item => (
+    <li><a href="{item.link}">{item.title}</a> ({item.time}), {item.place} {item.date}</li>
+  ));
+}
+
+function presentsSection() {
+  return data.map(yearly => (
+    <div className="col-md-6">
+      <h3 id="{yearly.year}">{yearly.year}</h3>
+      <ul>
+        {presentsList(yearly.presents)}
+      </ul>
+    </div>
+  ));
+}
+
 function Present() {
   return (
   <div>
@@ -9,19 +60,7 @@ function Present() {
         </div>
       </div>
       <div className="row">
-      <div className="col-md-6">
-        <h3 id="2016">2016</h3>
-        <ul>
-          <li><a href="http://blog.gasolin.idv.tw/2016/08/blog-post.html">聊天機器人，不加咖啡</a> (20min), Coscup 2016/8/21</li>
-          <li><a href="http://moztw.kktix.cc/events/91d7bca0">好孩子的第一次挑戰 WebVR 就快快樂樂上手</a> workshop, MozTw 2016/5/19</li>
-        </ul>
-      </div>
-      <div className="col-md-6">
-        <h3 id="2015">2015</h3>
-        <ul>
-          <li><a href="http://www.slideshare.net/gasolin/javascript-48212668">Javascript, world domanation</a> (30min), Modern Web 2015/5/19</li>
-        </ul>
-      </div>
+      {presentsSection()}
       <div className="col-md-6">
         <h3 id="2014">2014</h3>
         <ul>
