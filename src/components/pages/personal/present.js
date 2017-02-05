@@ -1,4 +1,5 @@
 import React from 'react';
+import presentsSection from './presentsSection';
 
 const data = [
   {
@@ -34,23 +35,6 @@ const data = [
   },
 ];
 
-function presentsList(presents) {
-  return presents.map(item => (
-    <li><a href="{item.link}">{item.title}</a> ({item.time}), {item.place} {item.date}</li>
-  ));
-}
-
-function presentsSection() {
-  return data.map(yearly => (
-    <div className="col-md-6">
-      <h3 id="{yearly.year}">{yearly.year}</h3>
-      <ul>
-        {presentsList(yearly.presents)}
-      </ul>
-    </div>
-  ));
-}
-
 function Present() {
   return (
   <div>
@@ -60,7 +44,7 @@ function Present() {
         </div>
       </div>
       <div className="row">
-      {presentsSection()}
+      {presentsSection(data)}
       <div className="col-md-6">
         <h3 id="2014">2014</h3>
         <ul>
