@@ -33,6 +33,25 @@ const data = [
       },
     ],
   },
+  {
+    year: 2014,
+    presents: [
+      {
+        title: 'Firefox OS - How Large Open Source Project works',
+        date: '2014/7/19',
+        place: 'COSCUP',
+        link: 'http://www.slideshare.net/gasolin/firefox-os-how-large-open-source-project-works',
+        time: '30min',
+      },
+      {
+        title: 'All about Web Component',
+        date: '2014/5/7',
+        place: 'GDG Taipei',
+        link: '',
+        time: '30min',
+      },
+    ],
+  },
 ];
 
 function Present() {
@@ -45,13 +64,6 @@ function Present() {
       </div>
       <div className="row">
       {presentsSection(data)}
-      <div className="col-md-6">
-        <h3 id="2014">2014</h3>
-        <ul>
-          <li><a href="http://www.slideshare.net/gasolin/firefox-os-how-large-open-source-project-works">Firefox OS - How Large Open Source Project works</a> (30min), COSCUP 14, 2014/7/19</li>
-          <li>All about Web Component, GDG Taipei, 2014/5/7</li>
-        </ul>
-      </div>
       <div className="col-md-6">
         <h3 id="2013">2013</h3>
         <ul>
