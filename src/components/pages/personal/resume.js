@@ -8,7 +8,7 @@ function Resume() {
           <h2>Resume</h2>
         </div>
       </div>
-      <a href="http://resume.gasolin.idv.tw"><img src="/static/images/btn_myprofile_160x33.gif" alt="link to my linkedin profile"/></a>
+      <a href="https://www.linkedin.com/in/fredglin/"><img src="/static/images/btn_myprofile_160x33.gif" alt="link to my linkedin profile"/></a>
       <div className="row">
         <div className="col-md-6">
           <h3>Personal Information<img src="/static/images/useradmin.png"/></h3>
