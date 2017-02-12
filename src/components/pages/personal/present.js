@@ -3,6 +3,11 @@ import presentsSection from './presentsSection';
 
 const data = [
   {
+    year: 2017,
+    presents: [
+    ],
+  },
+  {
     year: 2016,
     presents: [
       {
@@ -139,6 +144,88 @@ const data = [
       },
     ],
   },
+  {
+    year: 2011,
+    presents: [
+      {
+        title: 'zhpy lightening talk',
+        date: '2011/12/3',
+        place: 'PyCon China',
+        link: 'http://www.youtube.com/watch?v=pQqs-8kyq88',
+        time: '5min',
+      },
+      {
+        title: 'gFolder demo',
+        date: '2011/12/2',
+        place: 'Taipei Android Developer Lab',
+        link: '',
+        time: '5min',
+      },
+      {
+        title: 'Android Icecream Sandwich(ICS) sharing',
+        date: '2011/11/9',
+        place: 'Taipei GTUG',
+        link: 'http://www.youtube.com/watch?v=PoKxf1xCDn0&feature=feedu',
+        time: '30min',
+      },
+      {
+        title: 'Android Continue Integration with Jenkins',
+        date: '2011/8/20',
+        place: 'COSCUP',
+        link: 'http://www.youtube.com/watch?v=vVwGuXuma-k',
+        time: '25min',
+      },
+      {
+        title: 'Introduction of AppInventor',
+        date: '2011/8/17',
+        place: 'Taipei GTUG',
+        link: 'http://www.youtube.com/watch?v=Ujd_wJBAd1k&feature=channel_video_title',
+        time: '3omin',
+      },
+      {
+        title: 'Play framework on Google App Engine',
+        date: '2011/7/20',
+        place: 'Taipei GTUG',
+        link: 'http://www.youtube.com/watch?v=Z0EYjejXcnY&feature=channel_video_title',
+        time: '1hr',
+      },
+      {
+        title: 'Share 3 Google I/O admob & analytics related speech',
+        date: '2011/7/6',
+        place: 'Taipei GTUG',
+        link: 'http://www.youtube.com/watch?v=fYgmsBjLnfE&feature=channel_video_title',
+        time: '1hr',
+      },
+      {
+        title: 'Google I/O Recap of Android',
+        date: '2011/5/28',
+        place: 'Engadget',
+        link: '',
+        time: '30min',
+      },
+      {
+        title: 'Beyond Android',
+        date: '2011/5/24',
+        place: 'III',
+        link: '',
+        time: '3hr',
+      },
+      {
+        title: 'Aside for Google I/O Extended Keynote',
+        date: '2011/5/11',
+        place: 'Taipei GTUG',
+        link: '',
+        time: '1hr',
+      },
+      {
+        title: 'Aside for Google Movie Day',
+        date: '2011/3/30',
+        place: 'Taipei GTUG',
+        link: 'http://www.youtube.com/watch?v=1wRlJ5KTAwE&feature=channel_video_title',
+        time: '1hr',
+      },
+    ],
+  },
 ];
 
 function Present() {
@@ -151,22 +238,6 @@ function Present() {
       </div>
       <div className="row">
       {presentsSection(data)}
-      <div className="col-md-6">
-        <h3 id="2011">2011</h3>
-        <ul>
-          <li><a href="http://www.youtube.com/watch?v=pQqs-8kyq88">zhpy lightening talk</a>, 2011/12/3</li>
-          <li>gFolder demo, (5min), Taipei Android Developer Lab, 2011/12/2</li>
-          <li><a href="http://www.youtube.com/watch?v=PoKxf1xCDn0&feature=feedu">Android Icecream Sandwich(ICS) sharing</a> (30min), Taipei GTUG, 2011/11/9</li>
-          <li><a href="http://www.youtube.com/watch?v=vVwGuXuma-k">Android Continue Integration with Jenkins</a> (25min), Coscup, 2011/8/20</li>
-          <li><a href="http://www.youtube.com/watch?v=Ujd_wJBAd1k&feature=channel_video_title">Introduction of AppInventor</a> (30min), Taipei GTUG, 2011/8/17</li>
-          <li><a href="http://www.youtube.com/watch?v=Z0EYjejXcnY&feature=channel_video_title">Play framework on Google App Engine</a> (1hr), Taipei GTUG, 2011/7/20</li>
-          <li><a href="http://www.youtube.com/watch?v=fYgmsBjLnfE&feature=channel_video_title">Share 3 Google I/O admob & analytics related speech</a> (1hr), Taipei GTUG, 2011/7/6</li>
-          <li>Google I/O Recap of Android (30min), Engadget, 2011/5/28</li>
-          <li>Beyond Android, (3hr), III, 2011/5/24</li>
-          <li>Aside for Google I/O Extended Keynote (1hr), Taipei GTUG, 2011/5/11</li>
-          <li><a href="http://www.youtube.com/watch?v=1wRlJ5KTAwE&feature=channel_video_title">Aside for Google Movie Day</a> (1hr), Taipei GTUG, 2011/3/30</li>
-        </ul>
-      </div>
       <div className="col-md-6">
         <h3 id="2010">2010</h3>
         <ul>
