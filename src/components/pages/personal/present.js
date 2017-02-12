@@ -106,6 +106,39 @@ const data = [
       },
     ],
   },
+  {
+    year: 2012,
+    presents: [
+      {
+        title: 'Youtube for developers',
+        date: '2012/10/25',
+        place: 'GTUG Taipei',
+        link: 'http://www.youtube.com/watch?v=hlu_TeBRpQA',
+        time: '30min',
+      },
+      {
+        title: 'Does everybody can program?',
+        date: '2012/8/19',
+        place: 'COSCUP',
+        link: 'http://www.youtube.com/watch?v=HEW39KXn0a4',
+        time: '25min',
+      },
+      {
+        title: 'Developer can make beautiful web - Introduction of JQuery Mobile/Twitter Bootstrap',
+        date: '2012/6/6',
+        place: 'GTUG Taipei',
+        link: 'http://www.youtube.com/watch?v=Xd2KiDunRxc',
+        time: '1hr',
+      },
+      {
+        title: 'Android UI Design Guide & Tips',
+        date: '2012/2/15',
+        place: 'Taipei GTUG',
+        link: 'http://www.youtube.com/watch?v=KnPKLuz6qpQ',
+        time: '30min',
+      },
+    ],
+  },
 ];
 
 function Present() {
@@ -118,15 +151,6 @@ function Present() {
       </div>
       <div className="row">
       {presentsSection(data)}
-      <div className="col-md-6">
-        <h3 id="2012">2012</h3>
-        <ul>
-          <li><a href="http://www.youtube.com/watch?v=hlu_TeBRpQA">Youtube for developers (30min)</a>, GTUG Taipei, 2012/10/25</li>
-          <li><a href="http://www.youtube.com/watch?v=HEW39KXn0a4">Does everybody can program? (25min)</a>, Coscup, 2012/8/19</li>
-          <li><a href="http://www.youtube.com/watch?v=Xd2KiDunRxc">Developer can make beautiful web - Introduction of JQuery Mobile/Twitter Bootstrap (1hr)</a>, GTUG Taipei, 2012/6/6</li>
-          <li><a href="http://www.youtube.com/watch?v=KnPKLuz6qpQ">Android UI Design Guide & Tips</a> (30min), Taipei GTUG, 2012/2/15</li>
-        </ul>
-      </div>
       <div className="col-md-6">
         <h3 id="2011">2011</h3>
         <ul>
