@@ -223,6 +223,39 @@ const data = [
       },
     ],
   },
+  {
+    year: 2010,
+    presents: [
+      {
+        title: 'Introduction of Google App Engine',
+        date: '2010/12/7',
+        place: 'Taipei GTUG',
+        link: 'http://www.slideshare.net/gasolin/javascript-48212668',
+        time: '1hr',
+      },
+      {
+        title: 'Introduction of Mercurial, the Distributed Version Control System',
+        date: '2010/12/4',
+        place: 'TWJUG',
+        link: 'http://www.slideshare.net/gasolin/introduction-of-distributed-version-control-system',
+        time: '1hr',
+      },
+      {
+        title: 'Android Programming(Android 應用程式設計)',
+        date: '2010/3/13~3/14',
+        place: 'Chong-Hwa Telecom Training Center',
+        link: '',
+        time: '12hr',
+      },
+      {
+        title: 'Introduction of GoogleCode and Mercurial',
+        date: '2010/02/03',
+        place: 'Taipei GTUG',
+        link: '',
+        time: '1hr',
+      },
+    ],
+  },
 ];
 
 export default data;

@@ -13,16 +13,6 @@ function Present() {
       <div className="row">
       {presentsSection(data)}
       <div className="col-md-6">
-        <h3 id="2010">2010</h3>
-        <ul>
-          <li>Introduction of Google App Engine (1hr), Taipei GTUG, 2010/12/7</li>
-          <li><a href="http://www.slideshare.net/gasolin/introduction-of-distributed-version-control-system">Introduction of Mercurial, the Distributed Version Control System (1hr)</a>, TWJUG, 2010/12/4</li>
-          <li>Android Programming(Android 應用程式設計, 12hr),
-              Chong-Hwa Telecom Training Center, 2010/3/13~3/14</li>
-          <li>Introduction of GoogleCode and Mercurial (1hr), Taipei GTUG, 2010/02/03</li>
-        </ul>
-      </div>
-      <div className="col-md-6">
         <h3 id="2009">2009</h3>
         <ul>
           <li>Navigation of Chrome OS (Chrome OS 導讀, 20 min), Taipei GTUG, 2009/11/25</li>
