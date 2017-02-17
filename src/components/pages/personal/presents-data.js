@@ -256,6 +256,46 @@ const data = [
       },
     ],
   },
+  {
+    year: 2009,
+    presents: [
+      {
+        title: 'Navigation of Chrome OS (Chrome OS 導讀)',
+        date: '2009/11/25',
+        place: 'Taipei GTUG',
+        link: '',
+        time: '20min',
+      },
+      {
+        title: 'Introduction of Android Application development (KaLug! Android 應用程式設計入門)',
+        date: '2009/11/22',
+        place: 'OSSF in Kaushung',
+        link: 'http://www.openfoundry.org/workshop/details/61-kalug--android-',
+        time: '6hr',
+      },
+      {
+        title: 'Introduction of Android Scripting Environment (Android Scripting Environment 簡介)',
+        date: '2009/8/16',
+        place: 'COSCUP',
+        link: 'http://www.youtube.com/watch?v=rq4VyXntpBI',
+        time: '30min',
+      },
+      {
+        title: 'The basis of Android application development(Android 應用程式開發基礎)',
+        date: '2009/5/21',
+        place: '南亞資管系',
+        link: '',
+        time: '3hr',
+      },
+      {
+        title: 'The difference of Android Programming comparing with other OS(Android 應用程式設計大不同)',
+        date: '2009/4/7',
+        place: 'Tossug',
+        link: '',
+        time: '2hr',
+      },
+    ],
+  },
 ];
 
 export default data;
