@@ -1,6 +1,5 @@
 import React from 'react';
-import presentsSection from './presentsSection';
-import data from './presents-data';
+import PresentsSection from './presents-section';
 
 function Present() {
   return (
@@ -11,7 +10,7 @@ function Present() {
         </div>
       </div>
       <div className="row">
-      {presentsSection(data)}
+       {PresentsSection()}
       </div>
   </div>
   );
