@@ -296,6 +296,65 @@ const data = [
       },
     ],
   },
+  {
+    year: 2008,
+    presents: [
+      {
+        title: 'GAEO+Facebook Plugin',
+        date: '2008/11/15',
+        place: 'Happy Designer 4',
+        link: '',
+        time: '15min',
+      },
+      {
+        title: 'GAEO+Facebook',
+        date: '2008/11/4',
+        place: 'TOSSUG',
+        link: '',
+        time: '15min',
+      },
+      {
+        title: 'Howto Maintain and Share an Python Project -- Take ZHPY for example (維護和分享 python 程式專案 -- 以周蟒中文 python 語言為例',
+        date: '2008/4/12',
+        place: 'OSDC.tw 2008',
+        link: 'http://www.slideshare.net/gasolin/python-24815415',
+        time: '30min',
+      },
+      {
+        title: 'Programming by Python and ZHPY for dummies (英文不太好, 也能第一次學程式語言就上手 -- 使用 Python 與周蟒)',
+        date: '2008/1/8',
+        place: 'TOSSUG',
+        link: 'http://www.slideshare.net/gasolin/python-zhpy',
+        time: '2hr',
+      },
+    ],
+  },
+  {
+    year: 2007,
+    presents: [
+      {
+        title: 'Introduction of ZHPY (周蟒簡介)',
+        date: '2007/11/3',
+        place: 'Lightening talk on COSCUP',
+        link: '',
+        time: '5min',
+      },
+      {
+        title: 'Test-Driven Python for dummies (Test-Driven Python 懶人包)',
+        date: '2007',
+        place: 'OSDC.tw',
+        link: '',
+        time: '30min',
+      },
+      {
+        title: 'Introduction of TurboGears Web Mega-Framework (TurboGears 入門)',
+        date: '2007/5/22',
+        place: 'TOSSUG',
+        link: '',
+        time: '30min',
+      },
+    ],
+  },
 ];
 
 export default data;
