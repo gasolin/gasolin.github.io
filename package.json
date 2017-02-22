@@ -2,7 +2,6 @@
   "name": "gasolinidv",
   "version": "3.0.0",
   "description": "gasolin homepage",
-  "main": "index.js",
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
@@ -34,13 +33,13 @@
         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
         "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/bootstrap-material-design.min.css",
         "http://fonts.googleapis.com/css?family=Cabin+Sketch",
-        "./static/styles/pushmenu.css",
-        "./static/styles/main.css"
+        "/static/styles/pushmenu.css",
+        "/static/styles/main.css"
       ],
       "scripts": [
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js",
         "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js",
-        "./static/js/pushmenu.js"
+        "/static/js/pushmenu.js"
       ],
       "googleAnalytics.trackingId": "UUA-2833924-5"
     }

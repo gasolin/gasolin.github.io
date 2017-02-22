@@ -20,6 +20,7 @@ install:
 script:
   - npm run build
   - echo "gasolin.idv.tw" > $FOLDER_TO_UPLOAD/CNAME
+  - cp 404.html $FOLDER_TO_UPLOAD/404.html
   - ./deploy.sh
 
 branches:
