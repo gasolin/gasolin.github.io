@@ -20,7 +20,10 @@ install:
 script:
   - npm run build
   - echo "gasolin.idv.tw" > $FOLDER_TO_UPLOAD/CNAME
-  - cp 404.html $FOLDER_TO_UPLOAD/404.html
+  - cp 404.html $FOLDER_TO_UPLOAD/
+  - mkdir $FOLDER_TO_UPLOAD/static/js
+  - cp src/static/js/redirect.js $FOLDER_TO_UPLOAD/static/js/
+  - cp src/static/js/pushmenu.js $FOLDER_TO_UPLOAD/static/js/
   - ./deploy.sh
 
 branches:
