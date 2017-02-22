@@ -1,6 +1,6 @@
 {
   "name": "gasolinidv",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "gasolin homepage",
   "scripts": {
     "start": "neutrino start",
@@ -24,7 +24,9 @@
       "entry": {
         "vendor": [
           "react",
-          "react-dom"
+          "react-dom",
+          "./src/static/js/redirect.js",
+          "./src/static/js/pushmenu.js"
         ]
       }
     },
