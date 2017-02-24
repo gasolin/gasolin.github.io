@@ -47,10 +47,8 @@
         "/static/styles/main.css"
       ],
       "scripts": [
-        "/static/js/redirect.js",
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js",
-        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js",
-        "/static/js/pushmenu.js"
+        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"
       ],
       "googleAnalytics.trackingId": "UUA-2833924-5"
     }
