@@ -18,12 +18,9 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
-      <Route path="personal">
-        <IndexRoute component={Portfolio}/>
-        <Route path="resume" component={Resume}/>
-        <Route path="present" component={Present}/>
-        <Route path="portfolio" component={Portfolio}/>
-      </Route>
+      <Route path="resume" component={Resume}/>
+      <Route path="present" component={Present}/>
+      <Route path="portfolio" component={Portfolio}/>
     </Route>
   </Router>
   // <Route path="*" component={NoMatch}/>
