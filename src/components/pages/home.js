@@ -7,7 +7,7 @@ function Home() {
       <tbody>
       <tr>
         <td>
-          <Link to="/personal/resume">
+          <Link to="/resume">
             <img src="/static/images/resume2.png" alt="Resume (履歷)"/>
           </Link>
         </td>
