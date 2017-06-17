@@ -1,6 +1,5 @@
 module.exports = {
    use: [
-      "neutrino-preset-airbnb-base",
       ["neutrino-preset-react", {
         // Enables Hot Module Replacement. Set to false to disable
         hot: true,
@@ -17,7 +16,10 @@ module.exports = {
       NODE_ENV: {
         production: {
           use: ['neutrino-middleware-pwa']
-        }
+        },
+        development: {
+          use: ['neutrino-preset-airbnb-base']
+        },
       }
     },
 }
