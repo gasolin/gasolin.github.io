@@ -2,6 +2,17 @@ This repo is reflect to www.gasolin.idv.tw
 
 [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
+Development instruction
+====
+
+Clone the repo, then
+
+```sh
+$ yarn install
+$ yarn start
+```
+
+
 Build instruction
 ====
 

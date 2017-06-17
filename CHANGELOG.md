@@ -2,8 +2,10 @@ TODO:
 * use svg icons from icomoon
 
 # v4 2017
-Write with neutrino 6
+Write with neutrino 6, host on github.
 Frontend build with `react` + `react-router-dom` + `React-Mdc-Web`
+Support Auto deployment.
+SPA(Single Page Application) and PWA(progressive web app)
 
 # v4.test 2017
 Updated to neutrino 5
