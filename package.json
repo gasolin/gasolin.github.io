@@ -1,0 +1,24 @@
+{
+  "name": "gasolinidv4",
+  "version": "4.0.0",
+  "description": "gasolin's home page",
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test"
+  },
+  "author": "Fred Lin (gasolin@gmail.com)",
+  "dependencies": {
+    "neutrino-middleware-pwa": "^6.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "next",
+    "react-mdc-web": "^0.13.0",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "neutrino": "^6.0.0",
+    "neutrino-preset-airbnb-base": "^6.0.0",
+    "neutrino-preset-react": "^6.0.0"
+  }
+}

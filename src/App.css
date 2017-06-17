@@ -1,0 +1,60 @@
+body {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #EEE;
+  color: #333;
+}
+
+main {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+@media (min-width: 992px) {
+  main {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #009688;
+}
+
+mark { background-color:#ff9; color:#000; font-style:normal; font-weight:bold; }
+
+.hidden { display: none; }
+
+.label {
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1px;
+  padding: .3em .6em;
+}
+
+.label-gold {
+  background: #CFB53B;
+}
+
+img {
+  border: 0;
+}
+
+img.email {
+  margin-bottom: -4px;
+}

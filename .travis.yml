@@ -1,0 +1,32 @@
+language: node_js
+node_js:
+  - "6"
+
+# check /usr/share/zoneinfo/ for valid timezone
+before_install:
+  - git config --global push.default matching
+  - git config --global user.name "gasolin via Travis CI"
+  - git config --global user.email "gasolin@gmail.com"
+  - export FOLDER_TO_UPLOAD=build
+  - export ACCOUNT=gasolin
+  - export REPO=gasolin.github.io
+  - export BRANCH=master
+  - export TIMEZONE=Asia/Taipei
+
+
+install:
+  - npm install
+
+script:
+  - npm run build
+  - echo "gasolin.idv.tw" > $FOLDER_TO_UPLOAD/CNAME
+  - cp 404.html $FOLDER_TO_UPLOAD/
+  - ./deploy.sh
+
+branches:
+  only:
+    - source
+
+cache:
+  directories:
+    - node_modules
