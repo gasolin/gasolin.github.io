@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PresentsItem = ({item}) => {
+const PresentsItem = ({ item }) => {
   let str = (
     <li><a href="{item.link}">{item.title}</a> ({item.time}), {item.place} {item.date}</li>
   );
@@ -10,6 +10,6 @@ const PresentsItem = ({item}) => {
     );
   }
   return str;
-}
+};
 
 export default PresentsItem;
