@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Elevation } from 'react-mdc-web';
 
 import Header from './components/header';
@@ -25,11 +25,13 @@ const App = () => (<Router>
   <main>
     <Header />
     <Elevation z={4} style={paperStyle}>
-      <Route exact path="/" component={Home}/>
-      <Route path="/resume" component={Resume} />
-      <Route path="/portfolio" component={Projects} />
-      <Route path="/present" component={Presents} />
-      <Footer />
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/resume" component={Resume} />
+        <Route path="/portfolio" component={Projects} />
+        <Route path="/present" component={Presents} />
+        <Footer />
+      </Switch>
     </Elevation>
   </main>
 </Router>);
