@@ -1,9 +1,9 @@
 import React from 'react';
-import { Grid, Cell } from 'react-mdc-web';
+import { Grid, Cell } from 'react-mdc-web/lib/Grid';
 import data from './presents-data';
 import PresentsItem from './presents-item';
 
-const Presents = props =>  (<Grid>
+const Presents = props => (<Grid>
   <Cell col={12}>
     <h2>Lectures/Presentations</h2>
   </Cell>

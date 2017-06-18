@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Elevation } from 'react-mdc-web';
+import Elevation from 'react-mdc-web/lib/Elevation';
 
 import Header from './components/header';
 import Footer from './components/footer';

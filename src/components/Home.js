@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Cell } from 'react-mdc-web';
+import { Grid, Cell } from 'react-mdc-web/lib/Grid';
 import { Link } from 'react-router-dom';
 import Slogan from './slogan';
 

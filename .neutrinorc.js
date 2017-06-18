@@ -2,7 +2,7 @@ module.exports = {
    use: [
       ["neutrino-preset-react", {
         // Enables Hot Module Replacement. Set to false to disable
-        hot: true,
+        hot: false,
         html: {
           title: "gasolin's Home Page"
         },
@@ -17,9 +17,9 @@ module.exports = {
     ],
     env: {
       NODE_ENV: {
-        // production: {
-        //   use: ['neutrino-middleware-pwa']
-        // },
+        production: {
+          use: ['neutrino-middleware-pwa']
+        },
         development: {
           use: ['neutrino-preset-airbnb-base']
         },
