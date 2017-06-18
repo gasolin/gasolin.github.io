@@ -7,13 +7,13 @@ module.exports = {
           title: "gasolin's Home Page"
         },
       }],
-      (neutrino) => neutrino.config.entry('vendor')
+      /*(neutrino) => neutrino.config.entry('vendor')
         .add('material-components-web')
         .add('react')
         .add('react-dom')
         .add('react-hot-loader')
         .add('react-mdc-web')
-        .add('react-router-dom')
+        .add('react-router-dom')*/
     ],
     env: {
       NODE_ENV: {
