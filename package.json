@@ -10,7 +10,6 @@
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
     "material-components-web": "^0.13.0",
-    "neutrino-middleware-pwa": "^6.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "next",
@@ -19,8 +18,9 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.1.0",
-    "neutrino": "^6.0.0",
-    "neutrino-preset-airbnb-base": "^6.0.0",
-    "neutrino-preset-react": "^6.0.0"
+    "neutrino": "^6.0.2",
+    "neutrino-middleware-pwa": "^6.0.2",
+    "neutrino-preset-airbnb-base": "^6.0.2",
+    "neutrino-preset-react": "^6.0.2"
   }
 }
