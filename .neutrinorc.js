@@ -1,10 +1,10 @@
 module.exports = {
    use: [
-      ["neutrino-preset-react", {
+      ['neutrino-preset-react', {
         // Enables Hot Module Replacement. Set to false to disable
         hot: false,
         html: {
-          title: "gasolin's Home Page"
+          title: 'gasolin\'s Home Page'
         },
       }],
       (neutrino) => neutrino.config.entry('vendor')

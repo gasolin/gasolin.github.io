@@ -14,7 +14,7 @@
     "react-dom": "^15.6.1",
     "react-hot-loader": "next",
     "react-mdc-web": "^0.13.0",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "~4.0.0"
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.1.0",
