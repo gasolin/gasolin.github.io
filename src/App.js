@@ -2,7 +2,7 @@ import React from 'react';
 // import { Route, Switch } from 'react-router-dom';
 import Elevation from 'react-mdc-web/lib/Elevation';
 
-// import Header from './components/header';
+import Header from './components/header';
 import Footer from './components/footer';
 import asyncComponent from './components/asyncComponent';
 import './App.css';
@@ -22,6 +22,7 @@ const paperStyle = {
 };
 
 const App = () => (<main>
+  <Header />
   <Elevation z={4} style={paperStyle}>
     <Footer />
   </Elevation>
