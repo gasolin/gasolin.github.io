@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Elevation from 'react-mdc-web/lib/Elevation';
 
-import Header from './components/header';
+// import Header from './components/header';
 import Footer from './components/footer';
 import asyncComponent from './components/asyncComponent';
 import './App.css';
@@ -21,7 +21,13 @@ const paperStyle = {
   backgroundColor: '#fff',
 };
 
-const App = () => (<Router>
+const App = () => (<main>
+  <Elevation z={4} style={paperStyle}>
+    <Footer />
+  </Elevation>
+</main>);
+
+/*const App = () => (<Router>
   <main>
     <Header />
     <Elevation z={4} style={paperStyle}>
@@ -30,10 +36,10 @@ const App = () => (<Router>
         <Route path="/resume" component={Resume} />
         <Route path="/portfolio" component={Projects} />
         <Route path="/present" component={Presents} />
-        <Footer />
       </Switch>
+      <Footer />
     </Elevation>
   </main>
-</Router>);
+</Router>);*/
 
 export default App;
