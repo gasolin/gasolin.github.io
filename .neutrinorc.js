@@ -13,7 +13,6 @@ module.exports = {
         .add('react-dom')
         .add('react-hot-loader')
         .add('react-mdc-web')
-        .add('react-router')
         .add('react-router-dom')
     ],
     env: {
