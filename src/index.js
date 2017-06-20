@@ -2,7 +2,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import 'material-components-web/dist/material-components-web.min.css';
 import App from './App';
 
