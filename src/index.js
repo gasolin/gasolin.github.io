@@ -2,16 +2,16 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import { Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import 'material-components-web/dist/material-components-web.min.css';
 import App from './App';
 
 const renderApp = () => {
   render(
     <AppContainer>
-      <Router>
+      <BrowserRouter>
         <App />
-      </Router>
+      </BrowserRouter>
     </AppContainer>,
     document.getElementById('root'),
   );
