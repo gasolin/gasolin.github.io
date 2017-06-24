@@ -10,6 +10,7 @@ module.exports = {
       (neutrino) => neutrino.config.entry('vendor')
         .add('material-components-web')
         .add('react')
+        .add('react-async-component')
         .add('react-dom')
         .add('react-hot-loader')
         .add('react-mdc-web')

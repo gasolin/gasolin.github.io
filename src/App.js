@@ -4,17 +4,11 @@ import Elevation from 'react-mdc-web/lib/Elevation';
 
 import Header from './components/header';
 import Footer from './components/footer';
-import asyncComponent from './components/asyncComponent';
+import AsyncHome from './components/AsyncHome';
+import AsyncResume from './components/AsyncResume';
+import AsyncPresents from './components/AsyncPresents';
+import AsyncProjects from './components/AsyncProjects';
 import './App.css';
-
-const Resume = asyncComponent(() => import('./components/Resume')
-  .then(module => module.default), { name: 'Resume' });
-const Projects = asyncComponent(() => import('./components/Projects')
-  .then(module => module.default), { name: 'Projects' });
-const Presents = asyncComponent(() => import('./components/Presents')
-  .then(module => module.default), { name: 'Presents' });
-const Home = asyncComponent(() => import('./components/Home')
-  .then(module => module.default), { name: 'Home' });
 
 const paperStyle = {
   padding: '19px',
@@ -25,10 +19,10 @@ const App = () => (<main>
   <Header />
   <Elevation z={4} style={paperStyle}>
     <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route path="/resume" component={Resume} />
-      <Route path="/portfolio" component={Projects} />
-      <Route path="/present" component={Presents} />
+      <Route exact path="/" component={AsyncHome}/>
+      <Route path="/resume" component={AsyncResume} />
+      <Route path="/portfolio" component={AsyncProjects} />
+      <Route path="/present" component={AsyncPresents} />
     </Switch>
     <Footer />
   </Elevation>
