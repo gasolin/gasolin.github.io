@@ -3,6 +3,14 @@ import { Tab, Tabbar } from 'react-mdc-web/lib/Tabs';
 import { Toolbar, ToolbarRow, ToolbarSection, ToolbarTitle } from 'react-mdc-web/lib/Toolbar';
 import { Link } from 'react-router-dom';
 
+const tabStyle = {
+  marginTop: '3px',
+};
+
+const toolbarStyle = {
+  minHeight: '48px',
+};
+
 const linkStyle = {
   color: 'inherit',
   textDecoration: 'inherit',
@@ -25,11 +33,11 @@ class Header extends React.Component {
 
   render() {
     return (<Toolbar z={4}>
-      <ToolbarRow>
+      <ToolbarRow style={toolbarStyle}>
         <ToolbarSection align='start'>
           <ToolbarTitle value={0} onClick={this.handleClick.bind(this)}>
             <Link to='/' style={linkStyle}>gasolin</Link></ToolbarTitle>
-          <Tabbar onClick={this.handleClick.bind(this)}>
+          <Tabbar style={tabStyle} onClick={this.handleClick.bind(this)}>
             <Tab active={this.state.value === 1} data-value={1}>
               <Link to='/resume' style={linkStyle}>Resume</Link></Tab>
             <Tab active={this.state.value === 2} data-value={2}>
