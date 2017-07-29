@@ -36,6 +36,7 @@ const Resume = props => (<Grid>
     <font color="darkblue">(Details are available upon request)</font>
           <ul>
         <li>Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013 ~ present:<br/>
+         . development Firefox onboarding experience
          . development Firefox devtools with React and Redux
            (mainly inspector and network monitor)<br/>
          . development Firefox OS frontend system and apps (GAIA)
