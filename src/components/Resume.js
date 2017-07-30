@@ -36,7 +36,7 @@ const Resume = props => (<Grid>
     <font color="darkblue">(Details are available upon request)</font>
           <ul>
         <li>Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013 ~ present:<br/>
-         . development Firefox onboarding experience
+         . development Firefox onboarding experience<br/>
          . development Firefox devtools with React and Redux
            (mainly inspector and network monitor)<br/>
          . development Firefox OS frontend system and apps (GAIA)
@@ -51,7 +51,7 @@ const Resume = props => (<Grid>
          </li>
         <br/>
         <li>Senior Software Design Engineer, <a href="http://www.delta.com.tw/">Delta Electronics</a>, 2010 ~ 2013<br/>
-        . Paperless environment related research and development
+        . Paperless environment related research and development<br/>
         . Architect and implement education related services, include web frontend,
           API, and mobile clients.<br/>
         . Architect and Lead teams to develop Web Service and Android client.<br/>
