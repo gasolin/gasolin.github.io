@@ -36,9 +36,10 @@ const Resume = props => (<Grid>
     <font color="darkblue">(Details are available upon request)</font>
           <ul>
         <li>Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013 ~ present:<br/>
+         . <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox and toolkit module peer</a><br/>
          . development Firefox onboarding experience<br/>
-         . development Firefox devtools with React and Redux
-           (mainly inspector and network monitor)<br/>
+         . development Firefox devtools with React and Redux (mainly network monitor)<br/>
+         . Firefox OS Settings app peer
          . development Firefox OS frontend system and apps (GAIA)
            via emerging web technologies.<br/>
          . all works are opensourced <a href="https://github.com/gasolin">on GitHub</a>
