@@ -8,6 +8,12 @@ const GridStyle = {
 };
 
 const Home = () => (<div><Slogan />
+  <p>I'm an open source supporter, currently work on Mozilla as a <a href="https://wiki.mozilla.org/index.php?title=Modules%2FFirefox&diff=1177818&oldid=1163663" Firefox module peer> and<a
+was involved in the Firefox OS development as a Settings App peer with the faith of pure web operating system.
+Before join Mozilla, I published a popular Android development book and I'm also the organizer of <a href="https://www.facebook.com/groups/1614248835348810/?fref=ts">GDG Taipei</a> with the motivation to share emerging web and mobile technologies with communities.
+<br/>
+I've create several <a href="http://gasolin.idv.tw/portfolio">open source projects</a>, the most popular one is <a href="https://github.com/BlocklyDuino/BlocklyDuino">BlocklyDuino</a>, which has been used by several <a href="https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt">arduino-compatible board</a> and STEM projects.
+</p>
   <Grid style={GridStyle}>
     <Cell col={2}>
       <Link to='/resume'><img src='static/images/resume2.png' /></Link><br/>Resume<br/>(履歷)
