@@ -31,7 +31,7 @@ const Portfolio = props => (<Grid>
         <ul>
           <li><a href="http://letshow.me">LetShow Music (closed)</a>: <br/>Jukebox for android users in a place to share music with dropbox.</li>
           <li><a href="https://blockly-demo.appspot.com/static/apps/code/index.html?lang=zh-hant">周蟒積木版</a>: <br/>Chinese version of Blockly, the web-based visual programming editor.</li>
-        <li><a href="/public/blockly/demos/blocklyduino/index.html">BlocklyDuino</a>: <br/>web-based visual programming editor for arduino.</li>
+        <li><a href="https://github.com/BlocklyDuino/BlocklyDuino">BlocklyDuino</a>: <br/>web-based visual programming editor for arduino.</li>
         <li><a href="https://marketplace.firefox.com/app/ui-demos/">Firefox OS UI demos</a>: <br/>(Web App)Firefox OS UI Demos.(obsolete)</li>
         <li><a href="http://letsmeeting.herokuapp.com">LetsMeeting</a> : <br/>
           Mobile First Web Meeting Utility. (Creator, 2013~)(obsolete)
