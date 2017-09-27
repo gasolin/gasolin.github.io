@@ -3,6 +3,13 @@ const data = [
     year: 2017,
     presents: [
       {
+        title: 'Devtools Highlight 2017',
+        date: '2017/9/22',
+        place: 'Mozilla Developer Conference',
+        link: '',
+        time: '25min',
+      },
+      {
         title: 'Build the plane while flying it - How we design and build the Firefox Browser',
         date: '2017/5/6',
         place: 'NIU CSIE',
