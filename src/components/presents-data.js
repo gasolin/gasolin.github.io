@@ -6,7 +6,7 @@ const data = [
         title: 'Devtools Highlight 2017',
         date: '2017/9/22',
         place: 'Mozilla Developer Conference',
-        link: '',
+        link: 'https://docs.google.com/presentation/d/1BYScPwgi6m0KCQWkBGsgbJnIA8Br8pESJxRM6gJIBY8/edit?usp=sharing',
         time: '25min',
       },
       {
