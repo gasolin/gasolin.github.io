@@ -37,10 +37,11 @@ const Resume = props => (<Grid>
           <ul>
         <li>Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013 ~ present:<br/>
          . <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox and toolkit module peer</a><br/>
-         . development Firefox onboarding experience<br/>
-         . development Firefox devtools with React and Redux (mainly network monitor)<br/>
-         . Firefox OS Settings app peer
-         . development Firefox OS frontend system and apps (GAIA)
+         .. development Firefox onboarding experience from v56<br/>
+         . Network Monitor(Devtools) module peer<br/>
+         .. development Firefox <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React and Redux<br/>
+         . Firefox OS Settings app peer<br/>
+         .. development Firefox OS frontend system and apps (GAIA)
            via emerging web technologies.<br/>
          . all works are opensourced <a href="https://github.com/gasolin">on GitHub</a>
          </li>
@@ -48,7 +49,7 @@ const Resume = props => (<Grid>
         <li>Organizer, <a href="http://taipei-gtug.org/">Taipei Google Technology User Group</a>, 2011 ~ present:<br/>
          . Organize the people who are interested in Google's technology
            for discussion, hacking, and learning.<br/>
-         . <a href="www.taipei-gtug.org/meetings/meeting2011">Invite talks and hold hackathons</a>.
+         . <a href="www.taipei-gtug.org/meetings/meeting2011">Invite talks and hold hackathons for over 50 meetups</a>.
          </li>
         <br/>
         <li>Senior Software Design Engineer, <a href="http://www.delta.com.tw/">Delta Electronics</a>, 2010 ~ 2013<br/>
