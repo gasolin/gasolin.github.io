@@ -1,6 +1,6 @@
 {
   "name": "gasolinidv4",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "gasolin's home page",
   "scripts": {
     "start": "neutrino start",
@@ -15,12 +15,12 @@
     "react-dom": "^15.6.1",
     "react-hot-loader": "^3.1.3",
     "react-mdc-web": "^0.17.0",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "neutrino": "^6.1.1",
-    "neutrino-middleware-pwa": "^6.1.1",
-    "neutrino-preset-airbnb-base": "^6.1.1",
-    "neutrino-preset-react": "^6.1.1"
+    "neutrino": "^8.0.11",
+    "@neutrinojs/pwa": "^8.0.11",
+    "@neutrinojs/airbnb-base": "^8.0.11",
+    "@neutrinojs/react": "^8.0.11"
   }
 }

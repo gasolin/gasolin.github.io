@@ -1,6 +1,6 @@
 module.exports = {
    use: [
-      ['neutrino-preset-react', {
+      ['@neutrinojs/react', {
         // Enables Hot Module Replacement. Set to false to disable
         hot: false,
         html: {
@@ -15,6 +15,7 @@ module.exports = {
         .add('react-hot-loader')
         .add('react-mdc-web')
         .add('react-router-dom')
+        .end()
     ],
     env: {
       NODE_ENV: {

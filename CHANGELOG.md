@@ -1,6 +1,10 @@
 TODO:
 * use svg icons from icomoon
 
+# v4.1 2017
+Update to neutrino 8
+Update to react-mdc-web 0.17
+
 # v4 2017
 Write with neutrino 6, host on github.
 Frontend build with `react` + `react-router-dom` + `React-Mdc-Web`
