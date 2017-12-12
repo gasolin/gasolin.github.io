@@ -40,7 +40,7 @@ const Resume = props => (<Grid>
          .. development Firefox onboarding experience from v56<br/>
          . Network Monitor(Devtools) module peer<br/>
          .. development Firefox <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React and Redux<br/>
-         . Firefox OS Settings app peer
+         . Firefox OS Settings app peer<br/>
          .. development Firefox OS frontend system and apps (GAIA)
            via emerging web technologies.<br/>
          . all works are opensourced <a href="https://github.com/gasolin">on GitHub</a>
