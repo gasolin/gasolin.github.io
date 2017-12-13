@@ -5,6 +5,8 @@ TODO:
 Update to neutrino 8
 Update to react-mdc-web 0.17
 Update to react 16
+Use @neutrinojs/airbnb instead of @neutrinojs/airbnb-base
+Minimum code size with @neutrinojs/babel-minify
 
 # v4 2017
 Write with neutrino 6, host on github.
