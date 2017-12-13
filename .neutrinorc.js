@@ -20,10 +20,10 @@ module.exports = {
     env: {
       NODE_ENV: {
         production: {
-          use: ['neutrino-middleware-pwa']
+          use: ['@neutrinojs/pwa']
         },
         development: {
-          use: ['neutrino-preset-airbnb-base']
+          use: ['@neutrinojs/airbnb-base']
         },
       }
     },
