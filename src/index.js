@@ -28,7 +28,7 @@ const renderApp = () => {
 // When the single page app is loaded further down in this file,
 // the correct url will be waiting in the browser's history for
 // the single page app to route accordingly.
-(function(l) {
+(function(l) { // eslint-ignore func-names
   if (l.search) {
     var q = {};
     l.search.slice(1).split('&').forEach(function(v) {

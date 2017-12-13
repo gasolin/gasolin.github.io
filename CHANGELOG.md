@@ -4,6 +4,7 @@ TODO:
 # v4.1 2017
 Update to neutrino 8
 Update to react-mdc-web 0.17
+Update to react 16
 
 # v4 2017
 Write with neutrino 6, host on github.
