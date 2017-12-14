@@ -24,18 +24,12 @@ class Header extends React.Component {
     };
   }
 
-  handleClick(evt) {
-    this.setState({
-      value: evt.target.dataset.value,
-    });
-  }
-
   render() {
-    let handleClick = this.handleClick.bind(this);
+    let handleClick = (evt) => evt.target.dataset.value && this.setState({value: evt.target.dataset.value});
     return (<Toolbar z={4}>
       <ToolbarRow style={toolbarStyle}>
         <ToolbarSection align="start">
-          <ToolbarTitle value={0} onClick={handleClick}>
+          <ToolbarTitle data-value={0} onClick={handleClick}>
             <Link to="/" style={linkStyle}>gasolin</Link>
           </ToolbarTitle>
           <Tabbar style={tabStyle} onClick={handleClick}>
