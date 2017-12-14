@@ -1,7 +1,8 @@
 TODO:
 * use svg icons from icomoon
 
-# v4.1 2017
+# v4.1 2017.12
+Fixed redirection
 Update to neutrino 8
 Update to react-mdc-web 0.17
 Update to react 16

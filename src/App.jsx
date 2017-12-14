@@ -15,17 +15,18 @@ const paperStyle = {
   backgroundColor: '#fff',
 };
 
-const App = () => (<main>
-  <Header />
-  <Elevation z={4} style={paperStyle}>
-    <Switch>
-      <Route exact path="/" component={AsyncHome}/>
-      <Route path="/resume" component={AsyncResume} />
-      <Route path="/portfolio" component={AsyncProjects} />
-      <Route path="/present" component={AsyncPresents} />
-    </Switch>
-    <Footer />
-  </Elevation>
-</main>);
+const App = () => (
+  <main>
+    <Header />
+    <Elevation z={4} style={paperStyle}>
+      <Switch>
+        <Route exact path="/" component={AsyncHome} />
+        <Route path="/resume" component={AsyncResume} />
+        <Route path="/portfolio" component={AsyncProjects} />
+        <Route path="/present" component={AsyncPresents} />
+      </Switch>
+      <Footer />
+    </Elevation>
+  </main>);
 
 export default App;

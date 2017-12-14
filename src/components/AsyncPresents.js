@@ -1,5 +1,5 @@
 import { asyncComponent } from 'react-async-component';
 
 export default asyncComponent({
-  resolve: () => import('./Presents')
+  resolve: () => import('./Presents'),
 });

@@ -25,25 +25,29 @@ class Header extends React.Component {
   }
 
   handleClick(evt) {
-    const value = evt.target.dataset.value;
     this.setState({
-      value,
+      value: evt.target.dataset.value,
     });
   }
 
   render() {
+    let handleClick = this.handleClick.bind(this);
     return (<Toolbar z={4}>
       <ToolbarRow style={toolbarStyle}>
-        <ToolbarSection align='start'>
-          <ToolbarTitle value={0} onClick={this.handleClick.bind(this)}>
-            <Link to='/' style={linkStyle}>gasolin</Link></ToolbarTitle>
-          <Tabbar style={tabStyle} onClick={this.handleClick.bind(this)}>
+        <ToolbarSection align="start">
+          <ToolbarTitle value={0} onClick={handleClick}>
+            <Link to="/" style={linkStyle}>gasolin</Link>
+          </ToolbarTitle>
+          <Tabbar style={tabStyle} onClick={handleClick}>
             <Tab active={this.state.value === 1} data-value={1}>
-              <Link to='/resume' style={linkStyle}>Resume</Link></Tab>
+              <Link to="/resume" style={linkStyle}>Resume</Link>
+            </Tab>
             <Tab active={this.state.value === 2} data-value={2}>
-              <Link to='/portfolio' style={linkStyle}>Projects</Link></Tab>
+              <Link to="/portfolio" style={linkStyle}>Projects</Link>
+            </Tab>
             <Tab active={this.state.value === 3} data-value={3}>
-              <Link to='/present' style={linkStyle}>Presentations</Link></Tab>
+              <Link to="/present" style={linkStyle}>Presentations</Link>
+            </Tab>
           </Tabbar>
         </ToolbarSection>
       </ToolbarRow>
