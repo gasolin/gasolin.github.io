@@ -20,7 +20,7 @@ module.exports = {
     env: {
       NODE_ENV: {
         production: {
-          use: ['@neutrinojs/babel-minify', '@neutrinojs/pwa']
+          use: ['@neutrinojs/pwa']
         },
         development: {  
           use: ['@neutrinojs/airbnb']
