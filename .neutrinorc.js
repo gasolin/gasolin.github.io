@@ -19,9 +19,9 @@ module.exports = {
     ],
     env: {
       NODE_ENV: {
-        production: {
-          use: ['@neutrinojs/pwa']
-        },
+        // production: {
+        //   use: ['@neutrinojs/pwa']
+        // },
         development: {  
           use: ['@neutrinojs/airbnb']
         },
