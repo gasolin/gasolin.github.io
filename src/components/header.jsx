@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tab, Tabbar } from 'react-mdc-web/lib/Tabs';
 import { Toolbar, ToolbarRow, ToolbarSection, ToolbarTitle } from 'react-mdc-web/lib/Toolbar';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const tabStyle = {
   marginTop: '3px',
@@ -29,19 +29,13 @@ class Header extends React.Component {
     return (<Toolbar z={4}>
       <ToolbarRow style={toolbarStyle}>
         <ToolbarSection align="start">
-          <ToolbarTitle data-value={0} onClick={handleClick}>
+          <ToolbarTitle data-value={0}>
             <Link to="/" style={linkStyle}>gasolin</Link>
           </ToolbarTitle>
           <Tabbar style={tabStyle} onClick={handleClick}>
-            <Tab active={this.state.value === 1} data-value={1}>
-              <Link to="/resume" style={linkStyle}>Resume</Link>
-            </Tab>
-            <Tab active={this.state.value === 2} data-value={2}>
-              <Link to="/portfolio" style={linkStyle}>Projects</Link>
-            </Tab>
-            <Tab active={this.state.value === 3} data-value={3}>
-              <Link to="/present" style={linkStyle}>Presentations</Link>
-            </Tab>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/resume" style={linkStyle} active={this.state.value === "1"} data-value={1}>Resume</NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/portfolio" style={linkStyle} active={this.state.value === "2"} data-value={2}>Projects</NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/present" style={linkStyle} active={this.state.value === "3"} data-value={3}>Presentations</NavLink>
           </Tabbar>
         </ToolbarSection>
       </ToolbarRow>
