@@ -1,19 +1,36 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { asyncComponent } from 'react-async-component';
 import Elevation from 'react-mdc-web/lib/Elevation';
 
 import Header from './components/header';
 import Footer from './components/footer';
-import AsyncHome from './components/AsyncHome';
-import AsyncResume from './components/AsyncResume';
-import AsyncPresents from './components/AsyncPresents';
-import AsyncProjects from './components/AsyncProjects';
 import './App.css';
 
 const paperStyle = {
   padding: '19px',
   backgroundColor: '#fff',
 };
+
+const AsyncHome = asyncComponent({
+  resolve: () => import('./components/Home'),
+  ErrorComponent: ({ error }) => <div>{error.message}</div>,
+});
+
+const  AsyncResume = asyncComponent({
+  resolve: () => import('./components/Resume'),
+  ErrorComponent: ({ error }) => <div>{error.message}</div>,
+});
+
+const AsyncPresents = asyncComponent({
+  resolve: () => import('./components/Presents'),
+  ErrorComponent: ({ error }) => <div>{error.message}</div>,
+});
+
+const AsyncProjects = asyncComponent({
+  resolve: () => import('./components/Projects'),
+  ErrorComponent: ({ error }) => <div>{error.message}</div>,
+});
 
 const App = () => (
   <main>

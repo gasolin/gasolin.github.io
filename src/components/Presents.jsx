@@ -381,12 +381,12 @@ const Presents = () => (<Grid>
   {data.map(yearly => (<Cell col={6} key={yearly.year}>
     <h3 id={yearly.year}>{yearly.year}</h3>
     <ul>
-      {yearly.presents.map(item => {
+      {yearly.presents.map((item) => {
         return item.link ? (
           <li><a href="{item.link}">{item.title}</a> ({item.time}), {item.place} {item.date}</li>
-          ) : (
-            <li>{item.title} ({item.time}), {item.place} {item.date}</li>
-          );
+        ) : (
+          <li>{item.title} ({item.time}), {item.place} {item.date}</li>
+        );
       })}
     </ul>
   </Cell>))}

@@ -8,10 +8,10 @@ const GridStyle = {
 };
 
 const Home = () => (<div><Slogan />
-  <p>I'm an open source supporter, currently work on Mozilla as a <a href="https://wiki.mozilla.org/index.php?title=Modules%2FFirefox&diff=1177818&oldid=1163663"> Firefox and Devtools(Network Monitor) module peer</a>.
-  I'm the organizer of <a href="https://www.facebook.com/groups/1614248835348810/?fref=ts">GDG Taipei</a>, which align my interests to <a href="http://gasolin.idv.tw/portfolio">try</a> and <a href="http://gasolin.idv.tw/present">share</a> emerging web and mobile technologies.
-  Before join Mozilla, I published a best selling Android development book (in Taiwan). I created <a href="https://github.com/BlocklyDuino/BlocklyDuino">BlocklyDuino</a>,
-  which has been used by several <a href="https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt">Arduino-compatible board</a> and STEM projects.
+  <p>I'm an open source supporter, currently work on Mozilla as a 🔥🦊<a href="https://wiki.mozilla.org/index.php?title=Modules%2FFirefox&diff=1177818&oldid=1163663"> Firefox (photon onboarding)</a> and 👨‍💻🌐<a href="http://firefox-dev.tools/">Devtools (Network Monitor) module peer</a>.
+  I'm one of the early <a href="https://www.facebook.com/groups/1614248835348810/?fref=ts">GDG Taipei</a> organizers, which align my interests to <a href="http://gasolin.idv.tw/portfolio">try</a> and <a href="http://gasolin.idv.tw/present">share</a> emerging web and mobile technologies.
+  Before join Mozilla, I published a best selling Android development book in Taiwan. I also created an open source project <a href="https://github.com/BlocklyDuino/BlocklyDuino">BlocklyDuino</a>,
+  which has been used by several <a href="https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt">Arduino-compatible boards</a> and STEM projects.
   </p>
   <Grid style={GridStyle}>
     <Cell col={2}>
