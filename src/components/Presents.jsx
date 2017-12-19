@@ -10,7 +10,7 @@ const Presents = () => (<Grid>
   {data.map(yearly => (<Cell col={6} key={yearly.year}>
     <h3 id={yearly.year}>{yearly.year}</h3>
     <ul>
-       {yearly.presents.map((item, idx) => (<PresentsItem item={item} key={idx} />))}
+      {yearly.presents.map(item => (<PresentsItem item={item} key={item.date} />))}
     </ul>
   </Cell>))}
 </Grid>);
