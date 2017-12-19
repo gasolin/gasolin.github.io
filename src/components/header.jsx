@@ -33,9 +33,9 @@ class Header extends React.Component {
             <Link to="/" style={linkStyle}>gasolin</Link>
           </ToolbarTitle>
           <Tabbar style={tabStyle} onClick={handleClick}>
-            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/resume" style={linkStyle} active={this.state.value === "1"} data-value={1}>Resume</NavLink>
-            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/portfolio" style={linkStyle} active={this.state.value === "2"} data-value={2}>Projects</NavLink>
-            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/present" style={linkStyle} active={this.state.value === "3"} data-value={3}>Presentations</NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/resume" style={linkStyle} data-value={1}>Resume</NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/portfolio" style={linkStyle} data-value={2}>Projects</NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/present" style={linkStyle} data-value={3}>Presentations</NavLink>
           </Tabbar>
         </ToolbarSection>
       </ToolbarRow>
