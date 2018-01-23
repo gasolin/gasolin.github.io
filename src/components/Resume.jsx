@@ -35,7 +35,7 @@ const Resume = () => (<Grid>
     <h3>Experience</h3>
     <font color="darkblue">(Details are available upon request)</font>
     <ul>
-      <li>Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013 ~ present:<br/>
+      <li>Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013/2 ~ 2018/1<br/>
         . <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox and toolkit module peer</a><br/>
         .. development Firefox onboarding experience from v56<br/>
         . Network Monitor(Devtools) module peer<br/>
@@ -45,7 +45,8 @@ const Resume = () => (<Grid>
           via emerging web technologies.<br/>
         . all works are opensourced <a href="https://github.com/gasolin">on GitHub</a>
       </li>
-      <li>Organizer, <a href="http://taipei-gtug.org/">Taipei Google Technology User Group</a>, 2011 ~ present:<br/>
+      <li>Organizer, <a href="http://taipei-gtug.org/">GDG Taipei</a>, 2011 ~ present:<br/>
+          . (was Taipei GTUG, Taipei Google Technology User Group)
           . Organize the people who are interested in Google's technology
           for discussion, hacking, and learning.<br/>
           . <a href="www.taipei-gtug.org/meetings/meeting2011">Invite talks and hold hackathons for over 50 meetups</a>.
