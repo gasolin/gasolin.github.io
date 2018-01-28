@@ -134,7 +134,7 @@ and facilitating the docs migration from wiki to sphinx doc system.
   <Cell col={6}>
     <h4 id="books">Books</h4>
     <ol>
-      <li>[Ethereum區塊鏈！智能合約(Smart Contract)與分散式網頁應用(DApp)入門](https://www.gitbook.com/book/gasolin/learn-ethereum-dapp/details), (2018/1)</li>
+      <li><a href="https://www.gitbook.com/book/gasolin/learn-ethereum-dapp/details">Ethereum區塊鏈！智能合約(Smart Contract)與分散式網頁應用(DApp)入門</a>, (2018/1)</li>
       <li>Android BSP 與系統移植開發 9789572242469, 翻譯正體中文版 (2014/4)</li>
       <li><a href="http://leanpub.com/gaiafromabove">Beyond Web and Firefox OS - GAIA FROM ABOVE</a>, (2014/2)</li>
       <li>Google! Android 手機應用程式設計入門(第五版) 9789572241578, (2013/5)</li>
