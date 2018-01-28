@@ -134,16 +134,17 @@ and facilitating the docs migration from wiki to sphinx doc system.
   <Cell col={6}>
     <h4 id="books">Books</h4>
     <ol>
-      <li>Android BSP 與系統移植開發 9789572242469, 翻譯正體中文版 2014/4</li>
-      <li><a href="http://leanpub.com/gaiafromabove">Beyond Web and Firefox OS - GAIA FROM ABOVE</a>, 2014/2</li>
-      <li>Google! Android 手機應用程式設計入門(第五版) 9789572241578, 2013/5</li>
-      <li><font color="grey">Google! Android 3 手機應用程式設計入門(第四版) 9789572239346, 2011/8</font></li>
-      <li><font color="grey">Google Android 2 手机应用程序设计入门第3版 9787894764973, 2010/11</font></li>
+      <li>[Ethereum區塊鏈！智能合約(Smart Contract)與分散式網頁應用(DApp)入門](https://www.gitbook.com/book/gasolin/learn-ethereum-dapp/details), (2018/1)</li>
+      <li>Android BSP 與系統移植開發 9789572242469, 翻譯正體中文版 (2014/4)</li>
+      <li><a href="http://leanpub.com/gaiafromabove">Beyond Web and Firefox OS - GAIA FROM ABOVE</a>, (2014/2)</li>
+      <li>Google! Android 手機應用程式設計入門(第五版) 9789572241578, (2013/5)</li>
+      <li><font color="grey">Google! Android 3 手機應用程式設計入門(第四版) 9789572239346, (2011/8)</font></li>
+      <li><font color="grey">Google Android 2 手机应用程序设计入门第3版 9787894764973, (2010/11)</font></li>
       <li><a href="http://code.google.com/p/smartquestions/">提問的智慧(How To Ask Questions The Smart Way)</a> 翻譯正體中文版, (2010/10)</li>
-      <li><font color="grey">Google! Android 2 手機應用程式設計入門(第三版) 9789866382970, 2010/1</font></li>
-      <li><font color="grey">Google Android 开发入门指南 7115213941, 2009/11</font></li>
-      <li><font color="grey">Google! Android 手機應用程式設計入門(第二版) 9789866382185, 2009/8</font></li>
-      <li><font color="grey">Google! Android 手機應用程式設計入門 9789866482274, 2009/3</font></li>
+      <li><font color="grey">Google! Android 2 手機應用程式設計入門(第三版) 9789866382970, (2010/1)</font></li>
+      <li><font color="grey">Google Android 开发入门指南 7115213941, (2009/11)</font></li>
+      <li><font color="grey">Google! Android 手機應用程式設計入門(第二版) 9789866382185, (2009/8)</font></li>
+      <li><font color="grey">Google! Android 手機應用程式設計入門 9789866482274, (2009/3)</font></li>
       <li><a href="http://code.google.com/p/androidbmi/wiki/DiveIntoAndroid">深入淺出 Android -- Google 手持設備應用程式設計入門 電子書(2008~2013)</a></li>
       <li><a href="http://code.google.com/p/zhpy/wiki/ByteOfZhpy">咬一口 Python 電子書 (2006)</a></li>
     </ol>
