@@ -132,7 +132,7 @@ and facilitating the docs migration from wiki to sphinx doc system.
     <h3>Publications</h3>
   </Cell>
   <Cell col={6}>
-    <h4>Books</h4>
+    <h4 id="books">Books</h4>
     <ol>
       <li>Android BSP 與系統移植開發 9789572242469, 翻譯正體中文版 2014/4</li>
       <li><a href="http://leanpub.com/gaiafromabove">Beyond Web and Firefox OS - GAIA FROM ABOVE</a>, 2014/2</li>
@@ -149,7 +149,7 @@ and facilitating the docs migration from wiki to sphinx doc system.
     </ol>
   </Cell>
   <Cell col={6}>
-    <h4>Media Exposion</h4>
+    <h4 id="media">Media Exposion</h4>
     <ul>
       <li><a href="http://tech.mozilla.com.tw/posts/5987/%e4%bd%bf%e7%94%a8-github-%e9%96%8b%e7%99%bc%e6%88%91%e7%9a%84%e7%ac%ac%e4%b8%80%e5%80%8b%e7%b6%b2%e9%a0%81%e6%87%89%e7%94%a8%e7%a8%8b%e5%bc%8f-%ef%bc%88web-app%ef%bc%89">使用 Github 開發我的第一個網頁應用程式 （Web App）</a>,謀智台客, 2015/1</li>
       <li><a href="https://hacks.mozilla.org/2014/09/webapplate-maintainable-web-app-template-for-firefox-os-and-chrome-apps/">Webapplate – Maintainable web app template for Firefox OS and Chrome Apps</a>, Mozilla Hacks, 2014/9</li>
@@ -162,7 +162,7 @@ and facilitating the docs migration from wiki to sphinx doc system.
     </ul>
   </Cell>
   <Cell col={6}>
-    <h4>Journals</h4>
+    <h4 id="journals">Journals</h4>
     <ol>
       <li>Major Lee, Fred Lin, and Han-Chieh Chao, Routing Optimization over
           Network Mobility with Distributed Home Agents
@@ -175,7 +175,7 @@ and facilitating the docs migration from wiki to sphinx doc system.
     </ol>
   </Cell>
   <Cell col={6}>
-    <h4>Papers</h4>
+    <h4 id="papers">Papers</h4>
     <ol>
       <li>Fred Lin, Andrew Chang, and Han-Chieh Chao, Hybrid LAN Network Mobility
           with Distributed Home Agents, wcc05
