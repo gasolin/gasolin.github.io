@@ -9,7 +9,7 @@
   },
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
-    "material-components-web": "^0.30.0",
+    "material-components-web": "^0.27.0",
     "react": "^16.2.0",
     "react-async-component": "^1.0.2",
     "react-dom": "^16.2.0",
