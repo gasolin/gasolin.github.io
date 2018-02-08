@@ -18,9 +18,9 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "neutrino": "^8.0.13",
-    "@neutrinojs/pwa": "^8.0.13",
-    "@neutrinojs/airbnb": "^8.0.13",
-    "@neutrinojs/react": "^8.0.13"
+    "neutrino": "^8.1.1",
+    "@neutrinojs/pwa": "^8.1.1",
+    "@neutrinojs/airbnb": "^8.1.1",
+    "@neutrinojs/react": "^8.1.1"
   }
 }
