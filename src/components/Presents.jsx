@@ -14,7 +14,7 @@ const data = [
       },
       {
         title: 'Build the plane while flying it - How we design and build the Firefox Browser',
-        date: '2017/5/6',
+        date: '2017/5/5',
         place: 'NIU CSIE',
         link: '',
         time: '2.5hr',
@@ -358,7 +358,7 @@ const data = [
       },
       {
         title: 'Test-Driven Python for dummies (Test-Driven Python 懶人包)',
-        date: '2007',
+        date: '2007/4/14',
         place: 'OSDC.tw',
         link: '',
         time: '30min',
