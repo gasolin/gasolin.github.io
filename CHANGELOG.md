@@ -1,6 +1,11 @@
 TODO:
 * use svg icons from icomoon
 
+# v4.2 2018.2
+Update to neutrino 8.1.1
+add back font icon in tab
+add `npm run dev` script for preview
+
 # v4.1 2017.12
 Fixed redirection
 Update to neutrino 8

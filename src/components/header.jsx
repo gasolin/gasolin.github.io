@@ -2,6 +2,7 @@ import React from 'react';
 import { Tab, Tabbar } from 'react-mdc-web/lib/Tabs';
 import { Toolbar, ToolbarRow, ToolbarSection, ToolbarTitle } from 'react-mdc-web/lib/Toolbar';
 import { Link, NavLink } from 'react-router-dom';
+var FontAwesome = require('react-fontawesome');
 
 const tabStyle = {
   marginTop: '3px',
@@ -38,9 +39,15 @@ class Header extends React.Component {
             <Link to="/" style={linkStyle}>gasolin</Link>
           </ToolbarTitle>
           <Tabbar style={tabStyle} onClick={handleClick}>
-            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/resume" style={linkStyle} data-value={1}>Resume</NavLink>
-            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/portfolio" style={linkStyle} data-value={2}>Projects</NavLink>
-            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/present" style={linkStyle} data-value={3}>Presentations</NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/resume" style={linkStyle} data-value={1}>
+              <FontAwesome name="address-card"/> Resume
+            </NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/portfolio" style={linkStyle} data-value={2}>
+              <FontAwesome name="code"/> Projects
+            </NavLink>
+            <NavLink className="mdc-tab" activeClassName="mdc-tab--active" to="/present" style={linkStyle} data-value={3}>
+              <FontAwesome name="image"/> Presentations
+            </NavLink>
           </Tabbar>
         </ToolbarSection>
       </ToolbarRow>
