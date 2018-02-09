@@ -1,26 +1,32 @@
 {
   "name": "gasolinidv4",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "gasolin's home page",
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
-    "lint": "neutrino lint"
+    "lint": "neutrino lint",
+    "predev": "npm run build",
+    "dev": "npx http-server ./build"
   },
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "material-components-web": "^0.27.0",
     "react": "^16.2.0",
     "react-async-component": "^1.0.2",
     "react-dom": "^16.2.0",
+    "react-event-timeline": "^1.4.1",
+    "react-fontawesome": "^1.6.1",
     "react-hot-loader": "^3.1.3",
     "react-mdc-web": "^0.17.0",
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "neutrino": "^8.1.1",
-    "@neutrinojs/pwa": "^8.1.1",
     "@neutrinojs/airbnb": "^8.1.1",
-    "@neutrinojs/react": "^8.1.1"
+    "@neutrinojs/pwa": "^8.1.1",
+    "@neutrinojs/react": "^8.1.1",
+    "http-server": "^0.11.1",
+    "neutrino": "^8.1.1"
   }
 }
