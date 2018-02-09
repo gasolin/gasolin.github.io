@@ -11,6 +11,11 @@ const toolbarStyle = {
   minHeight: '48px',
 };
 
+const toolbarTitleStyle = {
+  paddingTop: '12px',
+  paddingBottom: '12px',
+}
+
 const linkStyle = {
   color: 'inherit',
   textDecoration: 'inherit',
@@ -29,7 +34,7 @@ class Header extends React.Component {
     return (<Toolbar z={4}>
       <ToolbarRow style={toolbarStyle}>
         <ToolbarSection align="start">
-          <ToolbarTitle data-value={0}>
+          <ToolbarTitle data-value={0} style={toolbarTitleStyle}>
             <Link to="/" style={linkStyle}>gasolin</Link>
           </ToolbarTitle>
           <Tabbar style={tabStyle} onClick={handleClick}>

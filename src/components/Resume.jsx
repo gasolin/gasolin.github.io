@@ -73,7 +73,7 @@ const Resume = () => (<Grid>
           (such as IPv6 6to4, Tunnel Broker(OCN), DTCP(Feel6),
           Microsoft LLTD and some private protocols) onto embedded CPE devices.
       </li>
-      <li>Committer, <a href="http://turbogears.org//">TurboGears</a>, 2006~2008:<br/>
+      <li>Committer, <a href="http://turbogears.org/">TurboGears</a>, 2006~2008:<br/>
       . Designed, developed, and maintain TGCrud,
           a customizable editor/crud interface generator based on Model.<br/>
       . Contribute several TurboGears 1.x plugins,
