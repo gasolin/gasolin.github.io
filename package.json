@@ -7,7 +7,8 @@
     "build": "neutrino build",
     "lint": "neutrino lint",
     "predev": "npm run build",
-    "dev": "npx http-server ./build"
+    "dev": "npx http-server ./build",
+    "release": "npx standard-version"
   },
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
@@ -26,7 +27,14 @@
     "@neutrinojs/airbnb": "^8.1.1",
     "@neutrinojs/pwa": "^8.1.1",
     "@neutrinojs/react": "^8.1.1",
+    "cz-gitmoji-changelog": "^1.1.0",
     "http-server": "^0.11.1",
-    "neutrino": "^8.1.1"
+    "neutrino": "^8.1.1",
+    "standard-version": "^4.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-gitmoji-changelog"
+    }
   }
 }
