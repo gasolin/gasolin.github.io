@@ -4,16 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 <a name="4.2.0"></a>
 # 4.2.0 (2018-02-19)
-
-
-
-TODO:
-* use svg icons from icomoon
-
-# v4.2 2018.2
 Update to neutrino 8.1.1
 add back font icon in tab
 add `npm run dev` script for preview
+use more structured commit format
 
 # v4.1 2017.12
 Fixed redirection
