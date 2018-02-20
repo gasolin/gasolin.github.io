@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdc-web/lib/Grid';
 
 const Portfolio = () => (<Grid>
   <Cell col={12}>
-    <h2>Projects</h2>
+    <h2>Publication, Projects and Apps</h2>
   </Cell>
   <Cell col={6}>
     <h3 id="mobile">Mobile Applications</h3>

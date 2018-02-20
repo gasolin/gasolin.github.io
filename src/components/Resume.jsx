@@ -33,7 +33,8 @@ const Resume = () => (<Grid>
   <Cell col={12}>
     <h3>Publication / Lecture / Events </h3>
     <ul>
-      <li></li>
+      <li><a href="present">Lectures and Presentations</a></li>
+      <li><a href="portfolio">Publication, Projects and Apps</a></li>
     </ul>
   </Cell>
   <Cell col={12}>

@@ -376,7 +376,7 @@ const data = [
 
 const Presents = () => (<Grid>
   <Cell col={12}>
-    <h2>Lectures/Presentations</h2>
+    <h2>Lectures and Presentations</h2>
   </Cell>
   {data.map(yearly => (<Cell col={6} key={yearly.year}>
     <h3 id={yearly.year}>{yearly.year}</h3>
