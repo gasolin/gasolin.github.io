@@ -3,11 +3,11 @@
   "version": "4.2.0",
   "description": "gasolin's home page",
   "scripts": {
-    "start": "neutrino start",
     "build": "neutrino build",
     "lint": "neutrino lint",
-    "predev": "npm run build",
-    "dev": "npx http-server ./build",
+    "dev": "neutrino start",
+    "preprod": "npm run build",
+    "prod": "npx http-server ./build",
     "release": "npx standard-version"
   },
   "author": "Fred Lin (gasolin@gmail.com)",
