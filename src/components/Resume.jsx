@@ -31,6 +31,12 @@ const Resume = () => (<Grid>
     </ul>
   </Cell>
   <Cell col={12}>
+    <h3>Publication / Lecture / Events </h3>
+    <ul>
+      <li></li>
+    </ul>
+  </Cell>
+  <Cell col={12}>
     <h3>Experience</h3>
     <ul>
       <li>👨‍💻 Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013/2 ~ 2018/1<br/>
@@ -89,7 +95,7 @@ const Resume = () => (<Grid>
   <Cell col={12}>
     <h3>Honors/Awards</h3>
     <ul>
-    <li>🗣 Honorable Mention, 6 times Coscup Speaker <a href="present">since 2009</a> with different topics
+    <li>🗣 6 times Coscup Speaker <a href="present">since 2009</a> with variety of open source related topics
       </li>
       <li>📗 Top 5 yearly best seller in books.com.tw language&programming category,
           Android programming entry book 4ed. 2011
@@ -106,11 +112,11 @@ const Resume = () => (<Grid>
       <li>🎗 SLAT(Software Liberty Association of Taiwan) voting
           Best Educational Promoter award (自由軟體傑出教育推廣獎),2008
       </li>
-      <li>Entry the final of Communication Application Integration Contest
+      <li>🎗Entry the final of Communication Application Integration Contest
           (將RFID及P2P整合於家庭網路－實現商品防仿冒和自動取得商品附加價值之服務系統,
           通訊應用整合競賽入選), 2004
       </li>
-      <li>Microsoft sponsor honor of IPv6 Creativity Contest(個人內容分散式網路-利用 IPv6 特性的
+      <li>🎗Microsoft sponsor honor of IPv6 Creativity Contest(個人內容分散式網路-利用 IPv6 特性的
           P2P 節點搜尋機制與應用, IPv6 創意競賽 Microsoft 企業贊助獎), 2003
       </li>
       <li>⚽️ Honorable Mention, Champion of Eagle Cup 2001 (soccer) (老鷹盃公開組11人制足球賽, 冠軍), 2001</li>
@@ -151,7 +157,7 @@ const Resume = () => (<Grid>
     <ul>
       <li>Contribute and lead several <a href="portfolio#opensource">Open Source projects</a>.</li>
       <li>Organize <a href="http://taipei-gtug.org">GDG Taipei</a> meetups and events since 2011.</li>
-      <li>Daily Scrum during Devtools and Firefox development to deliverables</li>
+      <li>Daily Scrum during Devtools and Firefox development, cowork across countries and timezone in daily basis.</li>
       {/* <li>Lead a team to develop web-based content platform and Device(specially Android) cooperated products.</li> */}
     </ul>
   </Cell>
