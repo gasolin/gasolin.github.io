@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdc-web/lib/Grid';
 // import Milestone from './Milestone';
+import ReactStars from 'react-stars';
 
 const Resume = () => (<Grid>
   <Cell col={12}>
@@ -127,9 +128,24 @@ const Resume = () => (<Grid>
     <h3>Specialty</h3>
     <h4>Programming languages</h4>
     <ul>
-      <li>Javascript: 5/5</li>
-      <li>Python: 3/5</li>
-      <li>Java/C: 2/5</li>
+      <li>Javascript/ES6+: <ReactStars
+        count={5}
+        value={4.5}
+        edit={false}
+        color2={"#155724"}
+        /></li>
+      <li>Python: <ReactStars
+        count={5}
+        value={3}
+        edit={false}
+        color2={"#004085"}
+        /></li>
+      <li>Java/C: <ReactStars
+        count={5}
+        value={2}
+        edit={false}
+        color2={"#383d41"}
+        /></li>
     </ul>
   </Cell>
   <Cell col={12}>
