@@ -97,7 +97,7 @@ const Resume = () => (<Grid>
   <Cell col={12}>
     <h3>Honors/Awards</h3>
     <ul>
-    <li>🗣 6 times Coscup Speaker <a href="present">since 2009</a> with variety of open source related topics
+      <li>🗣 6 times Coscup Speaker <a href="present">since 2009</a> with variety of open source related topics
       </li>
       <li>📗 Top 5 yearly best seller in books.com.tw language&programming category,
           Android programming entry book 4ed. 2011
