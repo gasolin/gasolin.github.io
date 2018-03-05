@@ -126,35 +126,53 @@ const Resume = () => (<Grid>
   </Cell>
   <Cell col={12}>
     <h3>Specialty</h3>
-    <h4>Programming languages</h4>
+    <h4>Skill Levels</h4>
     <ul>
-      <li>Javascript/ES6+: <ReactStars
+      <li>Javascript/ES6+ <ReactStars
         count={5}
         value={4.5}
         edit={false}
         color2={"#155724"}
-        /></li>
+        />
+      </li>
+      <li>HTML5/CSS <ReactStars
+        count={5}
+        value={4}
+        edit={false}
+        color2={"#004085"}
+        />
+      </li>
+      <li>React/Redux <ReactStars
+        count={5}
+        value={3}
+        edit={false}
+        color2={"#ffab00"}
+        />
+      </li>
       <li>Python: <ReactStars
         count={5}
         value={3}
         edit={false}
-        color2={"#004085"}
-        /></li>
-      <li>Java/C: <ReactStars
+        color2={"#ffee58"}
+        />
+      </li>
+      {/* <li>Java/C: <ReactStars
         count={5}
         value={2}
         edit={false}
         color2={"#383d41"}
-        /></li>
+        />
+      </li> */}
     </ul>
   </Cell>
   <Cell col={12}>
     <h4>Web development</h4>
     <ul>
-      <li>Frontend: HTML, CSS, JavaScript, React, Bootstrap</li>
+      <li>Frontend: HTML, CSS, JavaScript, React/Redux, Bootstrap</li>
       <li>Backend: Node.js (express),
           Python (Django, TurboGears, Google App Engine),
           Java (Play! Framework)</li>
+      <li>Test and Continue Integration: via Mocha, Jest, and Travis CI</li>
       <li>Web design and programming: Involved in 2 open source web frameworks
       development(TurboGears, GAEO) for bootstraping,
       user experience enhancement, and plugin development.</li>
@@ -181,31 +199,31 @@ const Resume = () => (<Grid>
   <Cell col={12}>
     <h4>Domain Knowledge</h4>
     <ul>
+     <li>Open Source: Involved in multiple open source projects and use them
+          in daily work. Organize over 50 developer meetups and activities.
+      </li>
+      <li>Publish Speaking: Elaborated technical topics (Web framework, Python,
+          Android) in public with passion. Giving over 40 Talks in tech meetups, open source conferences and training courses.
+      </li>
       <li>Server-Client/Mobile Service architect, design and integration:
           Cooperated to deliver 500M+
           download Android app (aTrackDog) with web service.
       </li>
-      <li>Network Protocols & System Integration: Designed, coded,
-          ported and tested on linux-based home networking ODM products for
-          JP and US customers.
+      <li>User Experience in concern: Make easy to use bootstraping procedures
+          for TurboGears and GAEO web frameworks. Firefox Quantum Onboarding, My published
+          mobile apps, books and documents.
       </li>
       <li>Cross Platform design: Designed, coded and tested digital right
           management(OMA-like) system through c and java with Qt,
           Android, and server involved integration.
       </li>
-      <li>User Experience in concern: Make easy to use bootstraping procedures
-          for TurboGears and GAEO web frameworks, my published
-          mobile apps, books and documents.
-      </li>
-      <li>Publish Speaking: Elaborated technical topics (Web framework, Python,
-          Android, Mercurial) in public with passion.
+      <li>Network Protocols & System Integration: Designed, coded,
+          ported and tested on linux-based home networking ODM products for
+          JP and US customers.
       </li>
       <li>Intellectual Property(IP): trained and submitted IP claim in US/TW</li>
       <li>Organize and Facilitation: Introduced productive tools such as
           version control, tracking system to working groups.
-      </li>
-      <li>Open Source: Involved in multiple open source projects and use them
-          in daily work. Organize over 50 developer meetups and activities.
       </li>
     </ul>
   </Cell>
