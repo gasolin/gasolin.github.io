@@ -9,9 +9,10 @@ const GridStyle = {
 
 const Home = () => (<div><Slogan />
   <div id="summary">
-    <p>I'm an open source contributor and web engineer.
-    I like to utilizing web/mobile technologies and improve every aspect of <a href="http://gasolin.idv.tw/portfolio">bootstrapping</a> and <a href="http://gasolin.idv.tw/present">onboarding</a> process to help developers and users adopt my favorate open source projects. Currently writting  an eBook about <a href="https://gasolin.gitbooks.io/learn-ethereum-dapp/">Programming Smart Contract and DApp</a>.</p>
-    <p>Previously worked on Mozilla as a 🔥🦊<a href="https://wiki.mozilla.org/index.php?title=Modules%2FFirefox&diff=1177818&oldid=1163663"> Firefox</a> and 👨‍💻<a href="http://firefox-dev.tools/">Devtools</a> module peer; <a href="https://www.facebook.com/groups/1614248835348810/?fref=ts">GDG Taipei</a> organizer; Published <a href="portfolio#books">a best selling Android development book</a>.</p>
+    <p>I have been an open source contributor and web engineer for 10+ years.
+    I consistently explore web/mobile technologies and improvement of every aspect of <a href="http://gasolin.idv.tw/portfolio">bootstrapping</a> and <a href="http://gasolin.idv.tw/present">onboarding</a> process.
+    In doing so, I can encourage developers and users by providing a user engaging interface, well-document or crafted presentation. Currently I'm working on  an eBook about <a href="https://gasolin.gitbooks.io/learn-ethereum-dapp/">Programming Smart Contract and DApp</a>.</p>
+    <p>Previously worked in Mozilla as a 🔥🦊<a href="https://wiki.mozilla.org/index.php?title=Modules%2FFirefox&diff=1177818&oldid=1163663"> Firefox</a> and 👨‍💻<a href="http://firefox-dev.tools/">Devtools</a> module peer for 5 years, be a volunteer organizer in <a href="https://www.facebook.com/groups/1614248835348810/?fref=ts">GDG Taipei</a> for 8 years, and published <a href="portfolio#books">a best selling Android development book</a> in 2011.</p>
     <p>The most popular open source project I created is <a href="https://github.com/BlocklyDuino/BlocklyDuino">BlocklyDuino</a>,
     which has been used by several <a href="https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt">Arduino-compatible boards</a> and STEM projects.
     </p>
