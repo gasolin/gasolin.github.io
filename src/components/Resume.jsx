@@ -96,33 +96,51 @@ const Resume = () => (<Grid>
   </Cell>
   <Cell col={12}>
     <h3>Honors/Awards</h3>
-    <ul>
-      <li>🗣 6 times Coscup Speaker <a href="present">since 2009</a> with variety of open source related topics
-      </li>
-      <li>📗 Top 5 yearly best seller in books.com.tw language&programming category,
-          Android programming entry book 4ed. 2011
-      </li>
-      <li>📗 Top 2 in TenLong's Best Tech Book Seller Billboard,
-          Android programming entry book 1st~3ed. 2009~2011
-      </li>
-      <li>📙 Honorable Mention, introductory the book 'Google App Engine in Practice'
-          (Google 應用服務引擎開發實戰 , 上官林傑), 2009
-      </li>
-      <li>Honorable Mention, listed as zxing contributor for the pattern of using
-          barcode scanner, 2009
-      </li>
-      <li>🎗 SLAT(Software Liberty Association of Taiwan) voting
-          Best Educational Promoter award (自由軟體傑出教育推廣獎),2008
-      </li>
-      <li>🎗Entry the final of Communication Application Integration Contest
+    <table class="table-striped">
+      <tbody>
+        <tr>
+          <td>🗣 6 times Coscup Speaker <a href="present">with variety of open source related topics</a></td>
+          <td>2009~2016</td>
+        </tr>
+        <tr>
+          <td>📗 Android programming entry book 4ed become Top 5 yearly best seller in books.com.tw language&programming category</td>
+          <td>2011</td>
+        </tr>
+        <tr>
+          <td>📗 Top 2 in TenLong's Best Tech Book Seller Billboard, Android programming entry book 1st~3ed</td>
+          <td>2009~2011</td>
+        </tr>
+        <tr>
+          <td>📙 Honorable Mention, introductory the book 'Google App Engine in Practice'
+          (Google 應用服務引擎開發實戰 , 上官林傑)</td>
+          <td>2009</td>
+        </tr>
+        {/* <tr>
+          <td>Honorable Mention, listed as zxing contributor for the pattern of using barcode scanner</td>
+          <td>2009</td>
+        </tr> */}
+      <tr>
+        <td>🎗 SLAT(Software Liberty Association of Taiwan) voting
+          Best Educational Promoter award (自由軟體傑出教育推廣獎)</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>🎗Entry the final of Communication Application Integration Contest
           (將RFID及P2P整合於家庭網路－實現商品防仿冒和自動取得商品附加價值之服務系統,
-          通訊應用整合競賽入選), 2004
-      </li>
-      <li>🎗Microsoft sponsor honor of IPv6 Creativity Contest(個人內容分散式網路-利用 IPv6 特性的
-          P2P 節點搜尋機制與應用, IPv6 創意競賽 Microsoft 企業贊助獎), 2003
-      </li>
-      <li>⚽️ Honorable Mention, Champion of Eagle Cup 2001 (soccer) (老鷹盃公開組11人制足球賽, 冠軍), 2001</li>
-    </ul>
+          通訊應用整合競賽入選)</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>🎗Microsoft sponsor honor of IPv6 Creativity Contest(個人內容分散式網路-利用 IPv6 特性的
+          P2P 節點搜尋機制與應用, IPv6 創意競賽 Microsoft 企業贊助獎)</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>⚽️ Honorable Mention, Champion of Eagle Cup 2001 as LB (soccer) (老鷹盃公開組11人制足球賽, 冠軍)</td>
+        <td>2001</td>
+      </tr>
+      </tbody>
+    </table>
   </Cell>
   <Cell col={12}>
     <h3>Specialty</h3>

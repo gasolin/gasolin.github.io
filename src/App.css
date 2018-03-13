@@ -58,3 +58,9 @@ img {
 img.email {
   margin-bottom: -4px;
 }
+
+table td {
+  padding: .75rem;
+  vertical-align:  top;
+  border-top: 1px solid #dee2e6;
+}
