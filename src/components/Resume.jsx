@@ -42,46 +42,43 @@ const Resume = () => (<Grid>
     <h3>Experience</h3>
     <ul>
       <li>👨‍💻 Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013/2 ~ 2018/1<br/>
-        . As <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a>, development Firefox onboarding experience from v56<br/>
-        . As Devtools module peer, completly refactor <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux<br/>
-        . As Firefox OS Settings app peer, development Firefox OS frontend system and apps (GAIA)
-          via emerging web technologies.<br/>
-        . all works are opensourced <a href="https://github.com/gasolin">on GitHub</a>
+        . shipping Firefox onboarding experience from v56 in time manner and become one of <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a><br/>
+        . Completly refactor <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux and list as Devtools module peer<br/>
+        . Leverage emerging web technologies to Firefox OS frontend as Firefox OS Settings app module peer<br/>
+        . Cooperate with global distributed team members and all works are opensourced
       </li>
-      <li>🤹‍ Organizer, <a href="http://taipei-gtug.org/">GDG Taipei</a>, 2011 ~ present:<br/>
-          . (was Taipei GTUG, Taipei Google Technology User Group)<br/>
-          . Organize the people who are interested in Google's technology
-          for discussion, hacking, and learning.<br/>
+      <li>🤹‍ Organizer, <a href="http://taipei-gtug.org/">GDG Taipei</a>, 2010 ~ present:<br/>
+          . Organize the people who are interested in Google's technology for discussion, hacking, and learning.<br/>
           . <a href="www.taipei-gtug.org/meetings/meeting2011">Invite talks and hold hackathons for over 50 meetups</a>.
       </li>
       <li>👨‍💻 Senior Software Design Engineer, <a href="http://www.delta.com.tw/">Delta Electronics</a>, 2010 ~ 2013<br/>
-      . Paperless environment related research and development<br/>
-      . Architect and implement education related services, include web frontend,
-          API, and mobile clients.<br/>
-      . Architect and Lead teams to develop Web Service and Android client.<br/>
+      {/* . Paperless environment related research and development<br/> */}
+      . Architect and Lead team to implement in-classroom education services with projector. including web frontend/server,
+          API, and Android tablet client.<br/>
       . Designed, coded and tested e-publish system with
           digital right management (DRM) support.<br/>
+      {/*
       . Develop multiple DRM clients (with Java/C/Qt)
           applicable for win/mac/linux/embedded OS.<br/>
+        . Develop web user interface of Cloud Storage Backend.
+      */}
       . Trained and submitted an Intellectual Property(IP) claim.<br/>
-      . Develop web user interface of Cloud Storage Backend.
       </li>
       <li>👨‍💻 Software Design Engineer, <a href="http://www.dninetworks.com/">Delta Network(DNI)</a>, 2005~2010:<br/>
-      . Made wire and wireless router firmware development from
-          backend to frontend (system build/porting, iptable routing,
+      . Router firmware development from backend to frontend (system build/porting, iptable routing, network protocols,
           user space application, web GUI).<br/>
-      . Designed, coded, ported and tested on linux-based home networking
+      {/* . Designed, coded, ported and tested on linux-based home networking
           ODM products for JP and US customers.<br/>
       . Researched and ported emerging network protocols
           (such as IPv6 6to4, Tunnel Broker(OCN), DTCP(Feel6),
-          Microsoft LLTD and some private protocols) onto embedded CPE devices.
+          Microsoft LLTD and some private protocols) onto embedded CPE devices. */}
       </li>
       <li>Open Source Committer, <a href="http://turbogears.org/">TurboGears</a>, 2006~2008:<br/>
-      . Designed, developed, and maintain TGCrud,
-          a customizable editor/crud interface generator based on the Object Model.<br/>
-      . Contribute several TurboGears 1.x plugins,
-          such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate.<br/>
-      {/* . Help breeding TG2 in its early stage,
+      {/* . Designed, developed, and maintain TGCrud,
+          a customizable editor/crud interface generator based on the Object Model.<br/> */}
+      . Contribute several TurboGears web megaframework 1.x plugins. plugin genshiquickstart was adopted in TurboGears 1.1.
+      {/*    such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate, TGCrud<br/>
+       . Help breeding TG2 in its early stage,
           ex. Porting paster commands for TurboGears 2,
           and facilitating the docs migration from wiki to sphinx doc system.<br/> */}
       </li>
@@ -89,8 +86,7 @@ const Resume = () => (<Grid>
       <li>T. A. (Networking Lab), <a href="www.ee.ndhu.edu.tw">Dept of EE in NDHU</a>, 2003 fall</li>
       <li>T. A. (Computer Programming), <a href="http://www.im.ndhu.edu.tw/">Dept of IM in NDHU</a>, 2003 fall </li> */}
       <li>Web developer, National Dong-Hwa University, Electrical Engineering. 2000~2004:<br/>
-      . Design & maintain the department homepage<br/>
-      . Apply ASP for department news update since 2001<br/>
+      . Design & maintain the department homepage. Introduce dynamic web page(ASP) for department news update since 2001, when the dynamic web page is still incommon for university web pages<br/>
       </li>
     </ul>
   </Cell>
@@ -123,6 +119,10 @@ const Resume = () => (<Grid>
         <td>🎗 SLAT(Software Liberty Association of Taiwan) voting
           Best Educational Promoter award (自由軟體傑出教育推廣獎)</td>
         <td>2008</td>
+      </tr>
+      <tr>
+        <td>📙 Honorable Mention, book <a href="https://www.amazon.com/Professional-Python-Frameworks-Programming-Turbogears/dp/0470138092/">Professional Python Frameworks: Web 2.0 Programming with Django and Turbogears</a> has a whole section to introduce my Turbogears plugin 'TGCrud'.</td>
+        <td>2007</td>
       </tr>
       <tr>
         <td>🎗Entry the final of Communication Application Integration Contest
