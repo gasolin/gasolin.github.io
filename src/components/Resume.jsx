@@ -21,54 +21,82 @@ const Resume = () => (<Grid>
   </Cell> */}
   <Cell col={12}>
     <h3>Experience</h3>
-    <ul>
-      <li>🤹‍ Organizer, <a href="http://taipei-gtug.org/">GDG Taipei</a>, 2010 ~ present:<br/>
-          . Organizing the people who are interested in Google's related web and mobile technology for discussion, hacking, and learning.<br/>
-          . <a href="www.taipei-gtug.org/meetings/meeting2011">Inviting talks and hold hackathons for over 50 meetups</a>.
-      </li>
-      <li>👨‍💻 Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013/2 ~ 2018/1<br/>
-        . shipped Firefox onboarding experience from v56 in time manner and become the <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a><br/>
-        . Completely refactored <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux and list as Devtools module peer<br/>
-        . Led connect device innovation project around chatbot, from idea to prototype<br/>
-        . Leveraged emerging web technologies to Firefox OS frontend as Firefox OS Settings app module peer<br/>
-        . Cooperated with global distributed team members in different timezone.
-        . All works are opensourced
-      </li>
-      <li>👨‍💻 Senior Software Design Engineer, <a href="http://www.delta.com.tw/">Delta Electronics</a>, 2010 ~ 2013<br/>
-      {/* . Paperless environment related research and development<br/> */}
-      . Architected and Led team to implement in-classroom education services with projector. including web frontend/server,
-          API, and Android tablet client.<br/>
-      . Designed, coded and tested e-publish system with digital right management (DRM) support.<br/>
-      {/*
-      . Develop multiple DRM clients (with Java/C/Qt)
-          applicable for win/mac/linux/embedded OS.<br/>
-        . Develop web user interface of Cloud Storage Backend.
-      */}
-      . Got trained and submitted an Intellectual Property (IP) claim.<br/>
-      </li>
-      <li>👨‍💻 Software Design Engineer, <a href="http://www.dninetworks.com/">Delta Network(DNI)</a>, 2005~2010:<br/>
-      . Router firmware development from backend to frontend (system build/porting, iptable routing, network protocols,
-          user space application, web GUI).<br/>
-      . Researched and ported emerging network protocols onto embedded devices in time manner (IPv6 6to4, Tunnel Broker(OCN), DTCP(Feel6), Microsoft LLTD and some private protocols).
-      {/* . Designed, coded, ported and tested on linux-based home networking
-          ODM products for JP and US customers.*/}
-      </li>
-      {/* <li>Open Source Committer, <a href="http://turbogears.org/">TurboGears</a>, 2006~2008:<br/>
-      . Designed, developed, and maintain TGCrud,
-          a customizable editor/crud interface generator based on the Object Model.<br/>
-      . Contribute several TurboGears web megaframework 1.x plugins. plugin genshiquickstart was adopted in TurboGears 1.1.
-      such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate, TGCrud<br/>
-       . Help breeding TG2 in its early stage,
-          ex. Porting paster commands for TurboGears 2,
-          and facilitating the docs migration from wiki to sphinx doc system.<br/>
-      </li> */}
-      {/* <li>Intern, YuDong Tech, 2004 Spring</li>
-      <li>T. A. (Networking Lab), <a href="www.ee.ndhu.edu.tw">Dept of EE in NDHU</a>, 2003 fall</li>
-      <li>T. A. (Computer Programming), <a href="http://www.im.ndhu.edu.tw/">Dept of IM in NDHU</a>, 2003 fall </li> */}
-      <li>Web developer, National Dong-Hwa University, Electrical Engineering. 2000~2004:<br/>
-      . Design & maintain the department homepage. Introduce dynamic web page(ASP) for department news update since 2001, when the dynamic web page is still incommon for university web pages<br/>
-      </li>
-    </ul>
+    <table class="table-striped">
+      <tbody>
+        <tr>
+          <td>Organizer 🤹</td>
+          <td><a href="http://taipei-gtug.org/">GDG Taipei</a></td>
+          <td>2010 ~ present</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul>
+            <li>Organizing the people who are interested in Google's related web and mobile technology for discussion, hacking, and learning.</li>
+            <li><a href="www.taipei-gtug.org/meetings/meeting2011">Inviting talks and hold hackathons for over 50 meetups.</a></li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Senior Software engineer 👨‍💻</td>
+          <td><a href="http://www.mozilla.com/">Mozilla</a></td>
+          <td>2013/2 ~ 2018/1</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul>
+            <li>Shipped Firefox onboarding experience from v56 in time manner and become the <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a></li>
+            <li>Completely refactored <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux and list as Devtools module peer.</li>
+            <li>Led connect device innovation project around chatbot, from idea to prototype.</li>
+            <li>Leveraged emerging web technologies to Firefox OS frontend as Firefox OS Settings app module peer.</li>
+            <li>Cooperated with global distributed team members in different timezone.</li>
+            <li>All works are opensourced.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Senior Software Design Engineer 👨‍💻</td>
+          <td><a href="http://www.delta.com.tw/">Delta Electronics</a></td>
+          <td>2010 ~ 2013</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul>
+              <li>Architected and Led team to implement in-classroom education services with projector. including web frontend/server,
+          API, and Android tablet client.</li>
+              <li>Designed, coded and tested e-publish system with digital right management (DRM) support.</li>
+              <li>Got trained and submitted an Intellectual Property (IP) claim.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Software Design Engineer 👨‍💻</td>
+          <td><a href="http://www.dninetworks.com/">Delta Network(DNI)</a></td>
+          <td>2005 ~ 2010</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul>
+            <li>Router firmware development from backend to frontend (system build/porting, iptable routing, network protocols,
+          user space application, web GUI).</li>
+            <li>Researched and ported emerging network protocols onto embedded devices in time manner (IPv6 6to4, Tunnel Broker(OCN), DTCP(Feel6), Microsoft LLTD and some private protocols).</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Web developer 👨‍💻</td>
+          <td>National Dong-Hwa University, Electrical Engineering</td>
+          <td>2000 ~ 2004</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <ul>
+            <li>Designed & maintained the homepage of the Department of Electrical Engineering and the College of Science & Engineering.</li>
+            <li>Introduced dynamic web page (ASP) for department news update since 2001 (The dynamic web page is still uncommon for university web pages at that time).</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </Cell>
   <Cell col={12}>
     <h3>Honors/Awards</h3>
