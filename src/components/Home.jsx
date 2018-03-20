@@ -9,14 +9,9 @@ const GridStyle = {
 
 const Home = () => (<div><Slogan />
   <div id="summary">
-    <p>I have been an open source contributor and web engineer for 10+ years, consistently explore web/mobile technologies and improvement of every aspect of <a href="http://gasolin.idv.tw/portfolio">bootstrapping</a> and <a href="http://gasolin.idv.tw/present">onboarding</a> process.
-    In doing so, I can encourage developers and users by providing a user engaging interface, well-documented project or crafted presentation.</p>
-    <p>12+ years in Internet industry as frontend, mobile app, backend, network system integration engineer helps me put myself in other's shoes and make cross-functional cooperation smoothly 🌐.
-    The multi-position experience also helps me crossing the border to come out some integration projects and bring innovation 💡 into involved projects.</p>
-    <p>Previously worked in Mozilla as a <a href="https://wiki.mozilla.org/index.php?title=Modules%2FFirefox&diff=1177818&oldid=1163663"> Firefox</a>  🔥🦊 and <a href="http://firefox-dev.tools/">Devtools</a> 👨‍💻 module peer for 5 years, be a volunteer organizer in <a href="https://www.facebook.com/groups/1614248835348810/?fref=ts">GDG Taipei</a> for 8 years, and published <a href="portfolio#books">a best selling Android development book 📗</a> in 2011.</p>
-    <p>The most popular open source project I created is <a href="https://github.com/BlocklyDuino/BlocklyDuino">BlocklyDuino</a>,
-    which has been used by several <a href="https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt">Arduino-compatible boards</a> and STEM projects.
-    Currently I'm working on an eBook 📘 about <a href="https://gasolin.gitbooks.io/learn-ethereum-dapp/">programming Smart Contract and DApp</a>.</p>
+    <p>Web engineer and open source contributor with 10+ years of experience. As frontend, mobile app, backend developer, network system integration engineer with 12+ years in Internet industry.</p>
+    <p>While maintaining and refactoring the large code base like Gecko (Mozilla Firefox) and Firefox OS frontend as a module peer, self motivated attitude helps me cross the border and have tracked records to create a project from ideas to reality (Android app aTrackDog notify app updates in early Android days and have >86k downloads. Web based visual programming tool BlocklyDuino is adopted by several STEM projects). </p>
+    <p>The multi-position experience helps me put myself in other's shoes and make cross-functional cooperation (with UI designer, backend engineer) smoothly.</p>
   </div>
   <Grid style={GridStyle}>
     <Cell col={2}>

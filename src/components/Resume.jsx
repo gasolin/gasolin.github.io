@@ -11,7 +11,7 @@ const Resume = () => (<Grid>
   <Cell col={12}>
     <h3>Personal Information</h3>
     <ul>
-      <li>Nick Name: gasolin (蓋索林)</li>
+      <li>Fred Lin (gasolin, 蓋索林)</li>
       <li>🎂 Birth Year: 1981</li>
       <li>️️✉️ Email: <img src="/static/images/mail.gif" className="email" alt="gasolin at gmail dot com" /></li>
     </ul>
@@ -20,68 +20,48 @@ const Resume = () => (<Grid>
     <Milestone></Milestone>
   </Cell> */}
   <Cell col={12}>
-    <h3>Education and Certification</h3>
-    <ul>
-      <li>🎫 TOEIC: <span className="label label-gold">890</span> (Gold), 2014</li>
-      <li>🎓 M.S., National Dong-Hwa University, Electrical Engineering. 2005.
-        {/* <ul>
-          <li>Thesis: Hybrid-LAN Network Mobility with Distributed Home Agents</li>
-        </ul> */}
-      </li>
-      <li>🎓 B.S., National Dong-Hwa University, Electrical Engineering. 2003.</li>
-    </ul>
-  </Cell>
-  <Cell col={12}>
-    <h3>Publication / Lecture / Events </h3>
-    <ul>
-      <li><a href="present">Lectures and Presentations</a></li>
-      <li><a href="portfolio">Publication, Projects and Apps</a></li>
-    </ul>
-  </Cell>
-  <Cell col={12}>
     <h3>Experience</h3>
     <ul>
-      <li>👨‍💻 Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013/2 ~ 2018/1<br/>
-        . shipping Firefox onboarding experience from v56 in time manner and become one of <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a><br/>
-        . Completly refactor <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux and list as Devtools module peer<br/>
-        . Leverage emerging web technologies to Firefox OS frontend as Firefox OS Settings app module peer<br/>
-        . Cooperate with global distributed team members and all works are opensourced
-      </li>
       <li>🤹‍ Organizer, <a href="http://taipei-gtug.org/">GDG Taipei</a>, 2010 ~ present:<br/>
-          . Organize the people who are interested in Google's technology for discussion, hacking, and learning.<br/>
-          . <a href="www.taipei-gtug.org/meetings/meeting2011">Invite talks and hold hackathons for over 50 meetups</a>.
+          . Organizing the people who are interested in Google's related web and mobile technology for discussion, hacking, and learning.<br/>
+          . <a href="www.taipei-gtug.org/meetings/meeting2011">Inviting talks and hold hackathons for over 50 meetups</a>.
+      </li>
+      <li>👨‍💻 Senior Software engineer, <a href="http://www.mozilla.com.tw/">Mozilla Taiwan</a>, 2013/2 ~ 2018/1<br/>
+        . shipped Firefox onboarding experience from v56 in time manner and become the <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a><br/>
+        . Completely refactored <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux and list as Devtools module peer<br/>
+        . Led connect device innovation project around chatbot, from idea to prototype<br/>
+        . Leveraged emerging web technologies to Firefox OS frontend as Firefox OS Settings app module peer<br/>
+        . Cooperated with global distributed team members in different timezone.
+        . All works are opensourced
       </li>
       <li>👨‍💻 Senior Software Design Engineer, <a href="http://www.delta.com.tw/">Delta Electronics</a>, 2010 ~ 2013<br/>
       {/* . Paperless environment related research and development<br/> */}
-      . Architect and Lead team to implement in-classroom education services with projector. including web frontend/server,
+      . Architected and Led team to implement in-classroom education services with projector. including web frontend/server,
           API, and Android tablet client.<br/>
-      . Designed, coded and tested e-publish system with
-          digital right management (DRM) support.<br/>
+      . Designed, coded and tested e-publish system with digital right management (DRM) support.<br/>
       {/*
       . Develop multiple DRM clients (with Java/C/Qt)
           applicable for win/mac/linux/embedded OS.<br/>
         . Develop web user interface of Cloud Storage Backend.
       */}
-      . Trained and submitted an Intellectual Property(IP) claim.<br/>
+      . Got trained and submitted an Intellectual Property (IP) claim.<br/>
       </li>
       <li>👨‍💻 Software Design Engineer, <a href="http://www.dninetworks.com/">Delta Network(DNI)</a>, 2005~2010:<br/>
       . Router firmware development from backend to frontend (system build/porting, iptable routing, network protocols,
           user space application, web GUI).<br/>
+      . Researched and ported emerging network protocols onto embedded devices in time manner (IPv6 6to4, Tunnel Broker(OCN), DTCP(Feel6), Microsoft LLTD and some private protocols).
       {/* . Designed, coded, ported and tested on linux-based home networking
-          ODM products for JP and US customers.<br/>
-      . Researched and ported emerging network protocols
-          (such as IPv6 6to4, Tunnel Broker(OCN), DTCP(Feel6),
-          Microsoft LLTD and some private protocols) onto embedded CPE devices. */}
+          ODM products for JP and US customers.*/}
       </li>
-      <li>Open Source Committer, <a href="http://turbogears.org/">TurboGears</a>, 2006~2008:<br/>
-      {/* . Designed, developed, and maintain TGCrud,
-          a customizable editor/crud interface generator based on the Object Model.<br/> */}
+      {/* <li>Open Source Committer, <a href="http://turbogears.org/">TurboGears</a>, 2006~2008:<br/>
+      . Designed, developed, and maintain TGCrud,
+          a customizable editor/crud interface generator based on the Object Model.<br/>
       . Contribute several TurboGears web megaframework 1.x plugins. plugin genshiquickstart was adopted in TurboGears 1.1.
-      {/*    such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate, TGCrud<br/>
+      such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate, TGCrud<br/>
        . Help breeding TG2 in its early stage,
           ex. Porting paster commands for TurboGears 2,
-          and facilitating the docs migration from wiki to sphinx doc system.<br/> */}
-      </li>
+          and facilitating the docs migration from wiki to sphinx doc system.<br/>
+      </li> */}
       {/* <li>Intern, YuDong Tech, 2004 Spring</li>
       <li>T. A. (Networking Lab), <a href="www.ee.ndhu.edu.tw">Dept of EE in NDHU</a>, 2003 fall</li>
       <li>T. A. (Computer Programming), <a href="http://www.im.ndhu.edu.tw/">Dept of IM in NDHU</a>, 2003 fall </li> */}
@@ -143,8 +123,8 @@ const Resume = () => (<Grid>
     </table>
   </Cell>
   <Cell col={12}>
-    <h3>Specialty</h3>
-    <h4>Skill Levels</h4>
+    {/* <h3>Specialty</h3> */}
+    <h3>Skill Levels</h3>
     <ul>
       <li>Javascript/ES6+ <ReactStars
         count={5}
@@ -162,7 +142,7 @@ const Resume = () => (<Grid>
       </li>
       <li>React/Redux <ReactStars
         count={5}
-        value={3}
+        value={3.5}
         edit={false}
         color2={"#ffab00"}
         />
@@ -184,6 +164,25 @@ const Resume = () => (<Grid>
     </ul>
   </Cell>
   <Cell col={12}>
+    <h3>Education and Certification</h3>
+    <ul>
+      <li>🎫 TOEIC: <span className="label label-gold">890</span> (Gold), 2014</li>
+      <li>🎓 M.S., National Dong-Hwa University, Electrical Engineering. 2005.
+        {/* <ul>
+          <li>Thesis: Hybrid-LAN Network Mobility with Distributed Home Agents</li>
+        </ul> */}
+      </li>
+      <li>🎓 B.S., National Dong-Hwa University, Electrical Engineering. 2003.</li>
+    </ul>
+  </Cell>
+  <Cell col={12}>
+    <h3>Publication / Lecture / Events </h3>
+    <ul>
+      <li><a href="present">Lectures and Presentations</a></li>
+      <li><a href="portfolio">Publication, Projects and Apps</a></li>
+    </ul>
+  </Cell>
+  {/* <Cell col={12}>
     <h4>Web development</h4>
     <ul>
       <li>Frontend: HTML, CSS, JavaScript, React/Redux, Bootstrap</li>
@@ -211,7 +210,7 @@ const Resume = () => (<Grid>
       <li>Contribute and lead several <a href="portfolio#opensource">Open Source projects</a>.</li>
       <li>Organize <a href="http://taipei-gtug.org">GDG Taipei</a> meetups and events since 2011.</li>
       <li>Daily Scrum during Devtools and Firefox development, cowork across countries and timezone in daily basis.</li>
-      {/* <li>Lead a team to develop web-based content platform and Device(specially Android) cooperated products.</li> */}
+      <li>Lead a team to develop web-based content platform and Device(specially Android) cooperated products.</li>
     </ul>
   </Cell>
   <Cell col={12}>
@@ -244,7 +243,7 @@ const Resume = () => (<Grid>
           version control, tracking system to working groups.
       </li>
     </ul>
-  </Cell>
+  </Cell> */}
   {/* <Cell col={6}>
       <h5>System administration</h5>
       <ul>
