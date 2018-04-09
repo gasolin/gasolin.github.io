@@ -25,7 +25,7 @@
     "react-stars": "2.2.5"
   },
   "devDependencies": {
-    "@neutrinojs/airbnb": "8.2.1",
+    "@neutrinojs/airbnb": "8.2.2",
     "@neutrinojs/pwa": "8.2.1",
     "@neutrinojs/react": "8.2.1",
     "cz-gitmoji-changelog": "1.1.0",
