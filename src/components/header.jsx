@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tab, Tabbar } from 'react-mdc-web/lib/Tabs';
+import { Tabbar } from 'react-mdc-web/lib/Tabs';
 import { Toolbar, ToolbarRow, ToolbarSection, ToolbarTitle } from 'react-mdc-web/lib/Toolbar';
 import { Link, NavLink } from 'react-router-dom';
 var FontAwesome = require('react-fontawesome');

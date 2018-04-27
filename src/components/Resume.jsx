@@ -21,7 +21,7 @@ const Resume = () => (<Grid>
   </Cell> */}
   <Cell col={12}>
     <h3>Experience</h3>
-    <table class="table-striped">
+    <table className="table-striped">
       <tbody>
         <tr>
           <td>Organizer 🤹</td>
@@ -29,7 +29,7 @@ const Resume = () => (<Grid>
           <td>2010 ~ present</td>
         </tr>
         <tr>
-          <td colspan="3">
+          <td colSpan="3">
             <ul>
             <li>Organizing the people who are interested in Google's related web and mobile technology for discussion, hacking, and learning.</li>
             <li><a href="www.taipei-gtug.org/meetings/meeting2011">Inviting talks and hold hackathons for over 50 meetups.</a></li>
@@ -42,7 +42,7 @@ const Resume = () => (<Grid>
           <td>2013/2 ~ 2018/1</td>
         </tr>
         <tr>
-          <td colspan="3">
+          <td colSpan="3">
             <ul>
             <li>Shipped Firefox onboarding experience from v56 in time manner and become the <a href="https://www.oxymoronical.com/blog/2017/08/New-Firefox-and-Toolkit-module-peers-in-Taipei">Firefox module peer</a></li>
             <li>Completely refactored <a href="https://github.com/mozilla/gecko-dev/tree/master/devtools/client/netmonitor">Network Monitor</a> with React & Redux and list as Devtools module peer.</li>
@@ -59,7 +59,7 @@ const Resume = () => (<Grid>
           <td>2010 ~ 2013</td>
         </tr>
         <tr>
-          <td colspan="3">
+          <td colSpan="3">
             <ul>
               <li>Architected and Led team to implement in-classroom education services with projector. including web frontend/server,
           API, and Android tablet client.</li>
@@ -74,7 +74,7 @@ const Resume = () => (<Grid>
           <td>2005 ~ 2010</td>
         </tr>
         <tr>
-          <td colspan="3">
+          <td colSpan="3">
             <ul>
             <li>Router firmware development from backend to frontend (system build/porting, iptable routing, network protocols,
           user space application, web GUI).</li>
@@ -88,7 +88,7 @@ const Resume = () => (<Grid>
           <td>2000 ~ 2004</td>
         </tr>
         <tr>
-          <td colspan="3">
+          <td colSpan="3">
             <ul>
             <li>Designed & maintained the homepage of the Department of Electrical Engineering and the College of Science & Engineering.</li>
             <li>Introduced dynamic web page (ASP) for department news update since 2001 (The dynamic web page is still uncommon for university web pages at that time).</li>
@@ -100,7 +100,7 @@ const Resume = () => (<Grid>
   </Cell>
   <Cell col={12}>
     <h3>Honors/Awards</h3>
-    <table class="table-striped">
+    <table className="table-striped">
       <tbody>
         <tr>
           <td>🗣 6 times Coscup Speaker <a href="present">with variety of open source related topics</a></td>
