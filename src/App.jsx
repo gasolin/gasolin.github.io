@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { asyncComponent } from 'react-async-component';
 import Elevation from 'react-mdc-web/lib/Elevation';
 
@@ -33,17 +33,20 @@ const AsyncProjects = asyncComponent({
 });
 
 const App = () => (
-  <main>
-    <Header />
-    <Elevation z={4} style={paperStyle}>
-      <Switch>
-        <Route exact path="/" component={AsyncHome} />
-        <Route path="/resume" component={AsyncResume} />
-        <Route path="/portfolio" component={AsyncProjects} />
-        <Route path="/present" component={AsyncPresents} />
-      </Switch>
-      <Footer />
-    </Elevation>
-  </main>);
+  <Router>
+    <main>
+      <Header />
+      <Elevation z={4} style={paperStyle}>
+        <Switch>
+          <Route exact path="/" component={AsyncHome} />
+          <Route path="/resume" component={AsyncResume} />
+          <Route path="/portfolio" component={AsyncProjects} />
+          <Route path="/present" component={AsyncPresents} />
+        </Switch>
+        <Footer />
+      </Elevation>
+    </main>
+  </Router>
+);
 
 export default App;
