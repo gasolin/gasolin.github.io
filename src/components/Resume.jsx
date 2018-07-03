@@ -24,6 +24,18 @@ const Resume = () => (<Grid>
     <table className="table-striped">
       <tbody>
         <tr>
+          <td>Senior Frontend Engineer 👨‍💻</td>
+          <td><a href="https://www.bitfinex.com/">Bitfinex</a></td>
+          <td>2018/6 ~ present</td>
+        </tr>
+        <tr>
+          <td colSpan="3">
+            <ul>
+            <li>Develop the performance UI for the high volume trading exchange.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>Organizer 🤹</td>
           <td><a href="http://taipei-gtug.org/">GDG Taipei</a></td>
           <td>2010 ~ present</td>
