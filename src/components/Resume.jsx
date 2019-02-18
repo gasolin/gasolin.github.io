@@ -31,7 +31,7 @@ const Resume = () => (<Grid>
         <tr>
           <td colSpan="3">
             <ul>
-            <li>Develop the performance UI for the high volume trading exchange.</li>
+            <li>Develop the performance UI for the high volume trading exchange. Including the new [Reporting tool](https://medium.com/bitfinex/diving-into-bitfinex-reporting-tools-ui-e40ce82410d0) an the new [Mobile App](https://medium.com/bitfinex/stay-connected-with-the-bitfinex-app-58984bb94dac)</li>
             </ul>
           </td>
         </tr>
