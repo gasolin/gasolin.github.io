@@ -13,7 +13,7 @@
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
     "font-awesome": "4.7.0",
-    "material-components-web": "0.27.0",
+    "material-components-web": "2.3.1",
     "react": "16.3.0",
     "react-async-component": "1.0.2",
     "react-dom": "16.3.0",
