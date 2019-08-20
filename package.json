@@ -27,7 +27,7 @@
   "devDependencies": {
     "@neutrinojs/airbnb": "8.2.1",
     "@neutrinojs/pwa": "8.2.1",
-    "@neutrinojs/react": "8.2.1",
+    "@neutrinojs/react": "8.3.0",
     "cz-gitmoji-changelog": "1.1.0",
     "http-server": "0.11.1",
     "neutrino": "8.2.1",
