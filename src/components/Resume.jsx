@@ -31,6 +31,7 @@ const Resume = () => (<Grid>
         <tr>
           <td colSpan="3">
             <ul>
+            <li>Mobile team lead to release and maintain the new Bitfinex Mobile App (Android/iOS)</li>
             <li>Develop the performance UI for the high volume trading exchange. Including the new <a href="https://medium.com/bitfinex/diving-into-bitfinex-reporting-tools-ui-e40ce82410d0">Reporting tool</a> an the new <a href="https://medium.com/bitfinex/stay-connected-with-the-bitfinex-app-58984bb94dac">Mobile App</a></li>
             </ul>
           </td>
