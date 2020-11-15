@@ -13,7 +13,7 @@ const Home = () => (
   <div id="summary">
     <p>Web engineer and open source contributor with 10+ years of experience. As frontend, mobile app, backend developer, network system integration engineer with 12+ years in Internet industry.</p>
     <p>While maintaining and refactoring the large code base like Gecko (Mozilla Firefox) and Firefox OS frontend as a module peer, self motivated attitude helps me cross the border and have tracked records to create a project from ideas to reality (Android app aTrackDog notify app updates in early Android days and have >86k downloads. Web based visual programming tool BlocklyDuino is adopted by several STEM projects). </p>
-    <p>The multi-position experience helps me put myself in other's shoes and make cross-functional cooperation smoothly (with UI designer, backend engineer).</p>
+    <p>The multi-position experience helps me put myself in other&apos;s shoes and make cross-functional cooperation smoothly (with UI designer, backend engineer).</p>
   </div>
   <Grid style={GridStyle}>
     <Cell col={2}>

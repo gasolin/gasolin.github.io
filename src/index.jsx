@@ -10,7 +10,7 @@ import './static/js/webfont';
 const renderApp = () => {
   render(
     <AppContainer>
-        <App />
+      <App />
     </AppContainer>,
     document.getElementById('root'),
   );

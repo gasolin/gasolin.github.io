@@ -1,17 +1,19 @@
 {
   "name": "gasolinidv4",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "gasolin's home page",
   "scripts": {
     "build": "neutrino build",
     "lint": "neutrino lint",
     "dev": "neutrino start",
+    "start": "npm run dev",
     "preprod": "npm run build",
     "prod": "npx http-server ./build",
     "release": "npx standard-version"
   },
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
+    "@svg-maps/taiwan": "^1.1.0",
     "font-awesome": "4.7.0",
     "material-components-web": "0.27.0",
     "react": "16.3.0",
@@ -22,7 +24,8 @@
     "react-hot-loader": "4.1.2",
     "react-mdc-web": "0.17.0",
     "react-router-dom": "4.2.2",
-    "react-stars": "2.2.5"
+    "react-stars": "2.2.5",
+    "react-svg-map": "^2.0.1"
   },
   "devDependencies": {
     "@neutrinojs/airbnb": "8.2.1",

@@ -22,7 +22,7 @@ module.exports = {
         production: {
           use: ['@neutrinojs/pwa']
         },
-        development: {  
+        development: {
           use: ['@neutrinojs/airbnb']
         },
       }

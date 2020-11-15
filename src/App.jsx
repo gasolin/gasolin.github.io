@@ -32,6 +32,11 @@ const AsyncProjects = asyncComponent({
   ErrorComponent: ({ error }) => <div>{error.message}</div>,
 });
 
+const AsyncTravel = asyncComponent({
+  resolve: () => import('./components/Travel'),
+  ErrorComponent: ({ error }) => <div>{error.message}</div>,
+})
+
 const App = () => (
   <Router>
     <main>
@@ -42,6 +47,7 @@ const App = () => (
           <Route path="/resume" component={AsyncResume} />
           <Route path="/portfolio" component={AsyncProjects} />
           <Route path="/present" component={AsyncPresents} />
+          <Route path="/travel" component={AsyncTravel} />
         </Switch>
         <Footer />
       </Elevation>
