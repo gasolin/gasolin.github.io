@@ -78,6 +78,8 @@ const Portfolio = () => (<Grid>
   <Cell col={4}>
     <h4>Node</h4>
     <ul>
+      <li><a href="https://github.com/gasolin/stakerwatch">Stakerwat.ch</a> : Utilities for Ethereum staker (Creator, 2020) </li>
+      <li><a href="https://github.com/gasolin/saihubot">Saihubot</a> : cross-platform (web + cli) client-side chatbot framework inspired by hubot (Creator, 2020) </li>
       <li><a href="https://github.com/gasolin/webbybot">Webbybot</a> : chatterbot written in es6 (es2015), compatible with hubot (Creator, 2016) </li>
       <li><a href="https://github.com/gasolin/webbymouse">WebbyMouse</a> : <br/>
       Turn your mobile phone into Air Mouse and touchpad with full web technology.
