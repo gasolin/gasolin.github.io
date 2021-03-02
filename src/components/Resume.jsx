@@ -187,7 +187,7 @@ const Resume = () => (<Grid>
       </li>
       <li>React/Redux <ReactStars
         count={5}
-        value={3.5}
+        value={4.5}
         edit={false}
         color2={"#ffab00"}
         />
