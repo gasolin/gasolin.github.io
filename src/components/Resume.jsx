@@ -116,7 +116,7 @@ const Resume = () => (<Grid>
     <table className="table-striped">
       <tbody>
         <tr>
-          <td>🥈 2nd Price ($5000) in <a href="https://gitcoin.co/issue/binancex/Grant-projects/17">Binance Hackathon</a></td>
+          <td>🥈 2nd Prize ($5000) in <a href="https://gitcoin.co/issue/binancex/Grant-projects/17">Binance Hackathon</a></td>
           <td>2021</td>
         </tr>
         <tr>
