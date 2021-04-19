@@ -31,6 +31,12 @@ const Portfolio = () => (<Grid>
   <Cell col={6}>
     <h3 id="web">Web Services</h3>
     <ul>
+      <li><a href="http://gasolin.idv.tw/ethhole/">ETH Hole</a> : <br/>
+        On-chain analytics of how tokens flow through the Layer 2 and sidechain from Ethereum. (Creator, 2021)
+      </li>
+      <li><a href="http://stakerwat.ch/">Stakerwat.ch</a> : <br/>
+        Web UI to show cross chain balances. (Creator, 2021)
+      </li>
       <li><a href="https://crosslink.taipei/">CrossLink Conference Website</a>: <br/>Ethereum Conference Page</li>
       <li><a href="http://letshow.me">LetShow Music (closed)</a>: <br/>Jukebox for android users in a place to share music with dropbox.</li>
       <li><a href="https://blockly-demo.appspot.com/static/apps/code/index.html?lang=zh-hant">周蟒積木版</a>: <br/>Chinese version of Blockly, the web-based visual programming editor.</li>
@@ -51,6 +57,9 @@ const Portfolio = () => (<Grid>
   <Cell col={4}>
     <h4>Web</h4>
     <ul>
+      <li><a href="http://gasolin.idv.tw/eth-milestone/">Ethereum Milestone</a> : <br/>
+      Present Ethereum milestones as git-like diagram. (Creator, 2021)
+      </li>
       <li><a href="https://github.com/gasolin/generator-360-photo">generator-360-photo</a> : <br/>
       Generator to create a web based 360 photo skeleton with aframe. (Creator, 2016)
       </li>
