@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "19:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react
+    versions:
+    - 16.14.0
+    - 17.0.1
+  - dependency-name: standard-version
+    versions:
+    - 9.1.0
+    - 9.1.1
+  - dependency-name: material-components-web
+    versions:
+    - 10.0.0
+    - 9.0.0
