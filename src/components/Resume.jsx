@@ -116,6 +116,10 @@ const Resume = () => (<Grid>
     <table className="table-striped">
       <tbody>
         <tr>
+          <td>🥈 won 3 vendor Prizes in <a href="https://showcase.ethglobal.co/scaling/ethhole-link">Scaling Ethereum Hackathon</a></td>
+          <td>2021</td>
+        </tr>
+        <tr>
           <td>🥈 2nd Prize ($5000) in <a href="https://gitcoin.co/issue/binancex/Grant-projects/17">Binance Hackathon</a></td>
           <td>2021</td>
         </tr>
