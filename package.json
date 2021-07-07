@@ -13,7 +13,7 @@
   },
   "author": "Fred Lin (gasolin@gmail.com)",
   "dependencies": {
-    "@svg-maps/taiwan": "^1.1.0",
+    "@svg-maps/taiwan": "1.1.0",
     "font-awesome": "4.7.0",
     "material-components-web": "0.27.0",
     "react": "16.3.0",
@@ -25,7 +25,7 @@
     "react-mdc-web": "0.17.0",
     "react-router-dom": "4.2.2",
     "react-stars": "2.2.5",
-    "react-svg-map": "^2.0.1"
+    "react-svg-map": "2.2.0"
   },
   "devDependencies": {
     "@neutrinojs/airbnb": "8.2.1",
