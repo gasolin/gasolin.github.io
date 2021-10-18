@@ -32,7 +32,7 @@
     "@neutrinojs/pwa": "8.2.1",
     "@neutrinojs/react": "8.2.1",
     "cz-gitmoji-changelog": "1.1.0",
-    "http-server": "0.11.1",
+    "http-server": "13.0.2",
     "neutrino": "8.2.1",
     "standard-version": "4.3.0"
   },
