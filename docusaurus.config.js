@@ -21,11 +21,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: 'https://github.com/gasolin/gasolin.github.io/tree/source/docs',
+        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -49,26 +48,20 @@ const config = {
           src: 'img/gasolin.jpeg',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
           {
             label: 'Resume',
-            to: "/resume",
+            to: '/resume',
             position: 'left'
           },
           {
+            to: '/docs/projects/',
+            position: 'left',
             label: 'Projects',
-            to: "/portfolio",
-            position: 'left'
           },
           {
-            label: 'Presentations',
-            to: "/present",
-            position: 'left'
+            to: '/docs/events/',
+            position: 'left',
+            label: 'Events',
           },
           {
             href: 'https://github.com/gasolin',
