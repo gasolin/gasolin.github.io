@@ -1,35 +1,54 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Resume',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Web3 engineer and open source contributor. As mobile app team lead in crypto industry from 2019.
+        <div className={styles.callForAction}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/resume">
+            Resume
+          </Link>
+        </div>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Projects',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Publication, Projects and Apps.
+        <div className={styles.callForAction}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/portfolio">
+            Projects
+          </Link>
+        </div>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Presentations',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Lectures, Hackthon, and Presentations.
+        <div className={styles.callForAction}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/present">
+            Presentations
+          </Link>
+        </div>
       </>
     ),
   },

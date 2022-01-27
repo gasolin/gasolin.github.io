@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: 'gasolin',
         logo: {
-          alt: 'gasolin',
+          alt: 'my back portrait drawed with flash',
           src: 'img/gasolin.jpeg',
         },
         items: [
@@ -56,9 +56,20 @@ const config = {
           //   label: 'Tutorial',
           // },
           {
-            href: 'https://blog.gasolin.idv.tw',
-            label: 'Blog',
-            position: 'left'},
+            label: 'Resume',
+            to: "/resume",
+            position: 'left'
+          },
+          {
+            label: 'Projects',
+            to: "/portfolio",
+            position: 'left'
+          },
+          {
+            label: 'Presentations',
+            to: "/present",
+            position: 'left'
+          },
           {
             href: 'https://github.com/gasolin',
             label: 'GitHub',
