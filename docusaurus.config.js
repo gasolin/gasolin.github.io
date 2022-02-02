@@ -64,7 +64,7 @@ const config = {
             label: 'Events',
           },
           {
-            href: 'https://github.com/gasolin',
+            href: 'https://github.com/gasolin/gasolin.github.io',
             label: 'GitHub',
             position: 'right',
           },

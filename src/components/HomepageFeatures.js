@@ -25,7 +25,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Creator of <a href="https://ethhole.link/" target="_blank">Ethhole.link</a>, Contributor of <a href="https://sites.google.com/view/osep-scratch3/" target="_blank">OSEP Scratch3</a>, DApp, Web and Educational projects.
+        <a href="https://ethhole.link/" target="_blank">Ethhole.link</a>, <a href="https://sites.google.com/view/osep-scratch3/" target="_blank">OSEP Scratch3</a>, and my DApp, Web and Educational projects.
         <div className={styles.callForAction}>
           <Link
             className="button button--secondary button--lg"
