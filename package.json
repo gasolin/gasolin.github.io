@@ -16,11 +16,15 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.15",
     "@docusaurus/preset-classic": "2.0.0-beta.15",
-    "@mdx-js/react": "^1.6.21",
+    "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
+    "mdx-mermaid": "^1.2.1",
+    "mermaid": "^8.14.0",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "remark-oembed": "^1.2.2",
+    "remark-pangu": "^2.2.0"
   },
   "browserslist": {
     "production": [

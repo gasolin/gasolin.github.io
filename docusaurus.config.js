@@ -24,6 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/gasolin/gasolin.github.io/tree/source/docs',
+          remarkPlugins: [
+            [
+              require('remark-emoji'), {padSpaceAfter: true}],
+              require('mdx-mermaid'), // charts
+              require('remark-pangu'), // chinese/english space
+              require('remark-oembed'), // youtube, twitter
+          ],
         },
         // blog: {
         //   showReadingTime: true,
