@@ -2,6 +2,8 @@
 sidebar_position: 30
 ---
 
+# Projects
+
 <a href="http://stackoverflow.com/users/669084/gasolin">
     <img src="http://stackoverflow.com/users/flair/669084.png?theme=clean" width="208" height="58" alt="profile for gasolin at Stack Overflow, Q&A for professional and enthusiast programmers" title="profile for gasolin at Stack Overflow, Q&A for professional and enthusiast programmers"/>
 </a>
