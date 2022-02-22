@@ -6,7 +6,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Resume',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Web3 engineer and open source contributor. As mobile app team lead in crypto industry from 2019.
@@ -38,7 +38,7 @@ const FeatureList = [
   },
   {
     title: 'Events',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Lectures, Hackthon, and Presentations.
