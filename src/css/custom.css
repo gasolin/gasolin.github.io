@@ -13,7 +13,8 @@
   --ifm-color-primary-light: #4c5ec1;
   --ifm-color-primary-lighter: #5566c4;
   --ifm-color-primary-lightest: #707ecd;
-  color: grey;
+  --ifm-link-color: #009688;
+  color: #333;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -25,6 +26,7 @@ html[data-theme='dark'] {
   --ifm-color-primary-light: #8793d5;
   --ifm-color-primary-lighter: #939ed9;
   --ifm-color-primary-lightest: #b6bee6;
+  color: #ccc;
 }
 
 .docusaurus-highlight-code-line {

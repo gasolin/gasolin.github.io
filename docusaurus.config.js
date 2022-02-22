@@ -61,12 +61,12 @@ const config = {
             position: 'left'
           },
           {
-            to: '/docs/projects/',
+            to: '/docs/projects/project',
             position: 'left',
             label: 'Projects',
           },
           {
-            to: '/docs/events/',
+            to: '/docs/events/presentation',
             position: 'left',
             label: 'Events',
           },

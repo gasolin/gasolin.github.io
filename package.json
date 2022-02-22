@@ -23,6 +23,7 @@
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-stars": "^2.2.5",
     "remark-oembed": "^1.2.2",
     "remark-pangu": "^2.2.0"
   },
