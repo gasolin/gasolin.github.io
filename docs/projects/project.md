@@ -50,12 +50,12 @@ sidebar_position: 100
 Designed, developed, and maintain TGCrud,
 a customizable editor/crud interface generator based on Model.
 
-Contribute several TurboGears 1.x plugins,
+<!--p>Contribute several TurboGears 1.x plugins,
 such as genshiquickstart(adopted in TurboGears 1.1), tgmigrate.
 
 Help breeding TG2 in its early stage,
 ex. Porting paster commands for TurboGears 2,
-and facilitating the docs migration from wiki to sphinx doc system.
+and facilitating the docs migration from wiki to sphinx doc system.</p-->
 - [google-app-engine-oil](http://code.google.com/p/google-app-engine-oil/): Yet another web framework on App Engine(Committer, 2008~2010)
 
 ## Android
