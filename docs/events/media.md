@@ -15,7 +15,7 @@ sidebar_position: 60
 <li><a href="https://hacks.mozilla.org/2014/09/webapplate-maintainable-web-app-template-for-firefox-os-and-chrome-apps/">Webapplate – Maintainable web app template for Firefox OS and Chrome Apps</a>, Mozilla Hacks, 2014/9</li>
 <li><a href="http://tech.mozilla.com.tw/posts/4803/%e5%83%8f%e5%8e%9f%e7%94%9f%e6%87%89%e7%94%a8%e7%a8%8b%e5%bc%8f%e4%b8%80%e6%a8%a3%e7%9a%84-webapp%ef%bc%9f%e8%b6%95%e5%bf%ab%e5%ad%b8%e8%b5%b7%e4%be%86%ef%bc%81/">像原生應用程式一樣的 WebApp？趕快學起來！</a>, 謀智台客, 2014/7</li>
 <li><a href="https://www.youtube.com/watch?v=rQdCFgi_5nA">謀智台客編輯群訪談 - 蓋索林 Gasolin</a>, 2014/7</li>
-<li>BlocklyDuino is used to program a kickstarter funded project <a href="blocklyduino is mentioned in kickstarter project https://www.kickstarter.com/projects/1607857757/lilbot-the-little-robot-that-could">Lil’Bot, the Arduino-compatible balancing robot for learning, hacking and delight.</a>, 2014/6</li>
+<li>BlocklyDuino is used to program a kickstarter funded project <a href="https://www.kickstarter.com/projects/1607857757/lilbot-the-little-robot-that-could">Lil’Bot, the Arduino-compatible balancing robot for learning, hacking and delight.</a>, 2014/6</li>
 
 ----
 

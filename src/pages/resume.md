@@ -56,7 +56,7 @@ import ReactStars from 'react-stars'
           <td colSpan="3">
             <ul>
             <li>Organizing the people who are interested in Google's related web and mobile technology for discussion, hacking, and learning.</li>
-            <li><a href="www.taipei-gtug.org/meetings/meeting2011">Inviting talks and hold hackathons for over 50 meetups.</a></li>
+            <li><a href="http://www.taipei-gtug.org/meetings/meeting2011">Inviting talks and hold hackathons for over 50 meetups.</a></li>
             </ul>
           </td>
         </tr>
