@@ -119,7 +119,7 @@ import ReactStars from 'react-stars'
           <td>2021</td>
         </tr>
         <tr>
-          <td>🗣 6 times Coscup Speaker <a href="present">with variety of open source related topics</a></td>
+          <td>🗣 6 times Coscup Speaker <a href="/docs/events/presentation">with variety of open source related topics</a></td>
           <td>2009~2016</td>
         </tr>
         <tr>
