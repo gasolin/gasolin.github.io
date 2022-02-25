@@ -15,7 +15,6 @@ sidebar_position: 100
 ## Web 3
 
 - [stakerwatch](https://github.com/gasolin/stakerwatch): Terminal utilities for Ethereum staker (Creator, 2020) [npm](https://www.npmjs.com/package/staker)
-- [eth-milestone](https://github.com/gasolin/eth-milestone) [Web site](http://gasolin.idv.tw/eth-milestone/)
 - [useDAPP](https://github.com/EthWorks/useDApp): Framework for rapid Dapp development (Contributor, 2021)
 - [@useDapp/coingecko](https://www.npmjs.com/package/@usedapp/coingecko): React hook to get token price from CoinGecko (Creator, 2021)
 
