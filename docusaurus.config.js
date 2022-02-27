@@ -56,6 +56,11 @@ const config = {
         },
         items: [
           {
+            href: 'https://blog.gasolin.idv.tw/',
+            label: 'Blog',
+            position: 'left'
+          },
+          {
             label: 'Resume',
             to: '/resume',
             position: 'left'
