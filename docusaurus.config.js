@@ -41,6 +41,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'UA-2833924-5',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+        },
       }),
     ],
   ],
@@ -86,7 +91,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Articles',
             items: [
               {
                 label: 'Blog',
