@@ -7,6 +7,13 @@ sidebar_position: 10
 
 ## 2022
 
+### Hands On Docusaurus
+
+2022/3/16 at Hualian GDG (30min)
+[Slide](https://docs.google.com/presentation/d/1wp_3r85S-Ye6H7cPxY8uRKJ6mkncLebtPVqsl6yej_g/)
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRV1xKcD329d_6z4fcefhebd4H46wgrp-INvIyNte11TpIAqCIHgkC8RYuCAM1mSCI7MRKVrCW30vGS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ### Kick start Docusaurus
 
 2022/2/16 at Hualian GDG (30min)
