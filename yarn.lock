@@ -7231,7 +7231,7 @@ pretty-time@^1.1.0:
   resolved "https://registry.yarnpkg.com/pretty-time/-/pretty-time-1.1.0.tgz#ffb7429afabb8535c346a34e41873adf3d74dd0e"
   integrity sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==
 
-prism-react-renderer@1.3.1:
+prism-react-renderer@1.3.1, prism-react-renderer@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.3.1.tgz#88fc9d0df6bed06ca2b9097421349f8c2f24e30d"
   integrity sha512-xUeDMEz074d0zc5y6rxiMp/dlC7C+5IDDlaEUlcBOFE2wddz7hz5PNupb087mPwTt7T9BrFmewObfCBuf/LKwQ==
@@ -7240,11 +7240,6 @@ prism-react-renderer@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.2.1.tgz#392460acf63540960e5e3caa699d851264e99b89"
   integrity sha512-w23ch4f75V1Tnz8DajsYKvY5lF7H1+WvzvLUcF0paFxkTHSp42RS0H5CttdN2Q8RR3DRGZ9v5xD/h3n8C8kGmg==
-
-prism-react-renderer@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.3.1.tgz#88fc9d0df6bed06ca2b9097421349f8c2f24e30d"
-  integrity sha512-xUeDMEz074d0zc5y6rxiMp/dlC7C+5IDDlaEUlcBOFE2wddz7hz5PNupb087mPwTt7T9BrFmewObfCBuf/LKwQ==
 
 prismjs@^1.27.0:
   version "1.27.0"
@@ -8569,9 +8564,9 @@ typedarray-to-buffer@^3.1.5:
     is-typedarray "^1.0.0"
 
 ua-parser-js@^0.7.30:
-  version "0.7.31"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
-  integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 unherit@^1.0.4:
   version "1.1.3"
