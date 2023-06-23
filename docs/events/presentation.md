@@ -5,6 +5,22 @@ sidebar_position: 10
 
 # Presentations
 
+## 2023
+
+### 向大師學 ChatGPT：提示工程與應用開發
+
+2023/6/21 at Hualian Py (30min)
+[Slide](https://docs.google.com/presentation/d/1VQylnWGckuPIykl0bx9jpyu6MKRa7E0jlyWLJ2oJf8Q/edit?usp=sharing)
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1AaYbXirsf3fRxHIXr3U7z73HeKQULHpnVbCSQL8VVtzzJZhgKjP2OcmLXqGuVydP3PgA9Oj_cSDK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### 花蓮．我．遠端工作
+
+2023/3/15 at Hualian Py (30min)
+[Slide](https://docs.google.com/presentation/d/1wlakdDNVIDS7bCsrxErDLVxkEt6M-iTglPntvQ38bvw/edit?usp=sharing)
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1-1Bfnuhhkb1Y1lcB-W45x0XvN99Z4jAZ3JM2JVsG6XzvEPvAfHOaJxjOVLwdZq266Uxj3wUvc6uo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## 2022
 
 ### Hands On Docusaurus
