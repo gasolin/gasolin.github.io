@@ -27,4 +27,4 @@ sidebar_position: 60
 ----
 ## 2012
 
-<li><a href="http://www.ithome.com.tw/itadm/article.php?c=72359">IT人甘苦談：用中文也能寫Python程式</a>, IThome, 2012/2/25</li>
+<li><a href="https://www.ithome.com.tw/tech/72359">IT人甘苦談：用中文也能寫Python程式</a>, IThome, 2012/2/25</li>
