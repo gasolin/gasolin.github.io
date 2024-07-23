@@ -234,8 +234,8 @@ import ReactStars from 'react-stars'
 
 ## Publication / Lecture / Events
 
-<li><a href="docs/events/presentation">Lectures and Presentations</a></li>
-<li><a href="docs/projects/project">Publication, Projects and Apps</a></li>
+<li><a href="../docs/events/presentation">Lectures and Presentations</a></li>
+<li><a href="../docs/projects/project">Publication, Projects and Apps</a></li>
 
 <!-- <h4>Web development</h4>
 <li>Frontend: HTML, CSS, JavaScript, React/Redux, Bootstrap</li>
