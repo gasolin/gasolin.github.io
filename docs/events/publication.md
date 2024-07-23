@@ -54,29 +54,22 @@ sidebar_position: 30
 
 <li>Major Lee, Fred Lin, and Han-Chieh Chao, Routing Optimization over
     Network Mobility with Distributed Home Agents
-    as the Cross Layer Considerationon, TCS, 2008
-</li>
+    as the Cross Layer Considerationon, TCS, 2008</li>
 <li>Yun-Sheng Yen, Fred Lin, and Han-Chieh Chao, Residential Gateway with
     RFID and P2P Community
-    at Transaction, Comsumer Electronics, 2005
-</li>
+    at Transaction, Comsumer Electronics, 2005</li>
 
 ----
 
 ## Papers
 
 <li>Fred Lin, Andrew Chang, and Han-Chieh Chao, Hybrid LAN Network Mobility
-    with Distributed Home Agents, wcc05
-</li>
+    with Distributed Home Agents, wcc05</li>
 <li>Yun-Sheng Yen, Chia-Chang Hsu, Fred Lin, Han-Chieh Chao, Global Dynamic
-    Home Agent Discovery on Mobile IPv6, wcc05
-</li>
+    Home Agent Discovery on Mobile IPv6, wcc05</li>
 <li>Simba Yen , Fred Lin, and Han-Chieh Chao , Integrated Residential
-    Gateway: Easy IA management with P2P Community Using RFID, ICACT2005
-</li>
+    Gateway: Easy IA management with P2P Community Using RFID, ICACT2005</li>
 <li>Fred Lin, Crota Chen and Han-Chieh Chao, Personal Internetworking
-    Using P2P Architecture over IPv6 (ICACT2005 conditionally accepted)
-</li>
+    Using P2P Architecture over IPv6 (ICACT2005 conditionally accepted)</li>
 <li>Fred Lin and Han-Chieh Chao, Security Impact of the emerging IPv6
-    network (新世代網路IPv6的安全衝擊), TANET, 2004
-</li>
+    network (新世代網路IPv6的安全衝擊), TANET, 2004</li>

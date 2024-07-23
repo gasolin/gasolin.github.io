@@ -18,6 +18,18 @@ import ReactStars from 'react-stars'
 <table className="table-striped">
       <tbody>
         <tr>
+          <td>Mobile team lead 👨‍💻</td>
+          <td><a href="https://www.bitfinex.com/">Holepunch</a></td>
+          <td>2023/6 ~ present</td>
+        </tr>
+        <tr>
+          <td colSpan="3">
+            <ul>
+            <li>release and maintain the Keet Mobile App (Android/iOS)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
           <td>Senior Frontend Engineer 👨‍💻</td>
           <td><a href="https://www.bitfinex.com/">Bitfinex</a></td>
           <td>2018/6 ~ present</td>
@@ -127,7 +139,7 @@ import ReactStars from 'react-stars'
           <td>2011</td>
         </tr>
         <tr>
-          <td>📗 Top 2 in TenLong's Best Tech Book Seller Billboard, Android programming entry book 1st~3ed</td>
+          <td>📗 Top 2 in TenLong's Best Tech Book Seller Billboard, Android programming entry book 1st\~3rd</td>
           <td>2009~2011</td>
         </tr>
         <tr>
@@ -169,33 +181,37 @@ import ReactStars from 'react-stars'
 
 ## Skill Levels
 
-<li>Javascript/ES6+ <ReactStars
-count={5}
-value={4.5}
-edit={false}
-color2={"#155724"}
-/>
+<li>Javascript/ES6+
+  <ReactStars
+    count={5}
+    value={4.5}
+    edit={false}
+    color2={"#155724"}
+  />
 </li>
-<li>HTML5/CSS <ReactStars
-  count={5}
-  value={4}
-  edit={false}
-  color2={"#004085"}
-/>
+<li>HTML5/CSS 
+  <ReactStars
+    count={5}
+    value={4}
+    edit={false}
+    color2={"#004085"}
+  />
 </li>
-<li>React/Redux <ReactStars
-  count={5}
-  value={4.5}
-  edit={false}
-  color2={"#ffab00"}
-/>
+<li>React/Redux 
+  <ReactStars
+    count={5}
+    value={4.5}
+    edit={false}
+    color2={"#ffab00"}
+  />
 </li>
-<li>Python: <ReactStars
-  count={5}
-  value={3}
-  edit={false}
-  color2={"#ffee58"}
-/>
+<li>Python: 
+  <ReactStars
+    count={5}
+    value={3}
+    edit={false}
+    color2={"#ffee58"}
+  />
 </li>
 {/* <li>Java/C: <ReactStars
   count={5}
