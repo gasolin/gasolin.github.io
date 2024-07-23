@@ -4,6 +4,9 @@ sidebar_position: 60
 
 # Media
 
+## 2024
+<li><iframe width="560" height="315" src="https://www.youtube.com/embed/OQoZWGhVDjA?si=brsmMlaJ93A2DrdC&amp;start=116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="https://www.youtube.com/watch?v=OQoZWGhVDjA">數位游牧移居花蓮宣傳片</a>,花蓮縣政府, 2024/2</li>
+
 ## 2015
 
 <li><a href="http://tech.mozilla.com.tw/posts/5987/%e4%bd%bf%e7%94%a8-github-%e9%96%8b%e7%99%bc%e6%88%91%e7%9a%84%e7%ac%ac%e4%b8%80%e5%80%8b%e7%b6%b2%e9%a0%81%e6%87%89%e7%94%a8%e7%a8%8b%e5%bc%8f-%ef%bc%88web-app%ef%bc%89">使用 Github 開發我的第一個網頁應用程式 （Web App）</a>,謀智台客, 2015/1</li>
