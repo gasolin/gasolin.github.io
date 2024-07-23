@@ -5,7 +5,8 @@ sidebar_position: 60
 # Media
 
 ## 2024
-<li><iframe width="560" height="315" src="https://www.youtube.com/embed/OQoZWGhVDjA?si=brsmMlaJ93A2DrdC&amp;start=116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><a href="https://www.youtube.com/watch?v=OQoZWGhVDjA">數位游牧移居花蓮宣傳片</a>,花蓮縣政府, 2024/2</li>
+<li><iframe width="560" height="315" src="https://www.youtube.com/embed/OQoZWGhVDjA?si=brsmMlaJ93A2DrdC&amp;start=116" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/>
+<a href="https://www.youtube.com/watch?v=OQoZWGhVDjA">數位游牧移居花蓮宣傳片</a>,花蓮縣政府, 2024/2</li>
 
 ## 2015
 
