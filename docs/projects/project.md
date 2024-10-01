@@ -10,7 +10,8 @@ sidebar_position: 100
 
 ## Current Contribute
 
-- [Awesome Pears](https://github.com/gasolin/awesome-pears) (Creator, 2024~)
+- [pear-expo](https://github.com/gasolin/pear-expo): basic setup for react native web (expo) run in pear mobile/desktop (Creator, 2024~)
+- [Awesome Pears](https://github.com/gasolin/awesome-pears): A list of curated pear related resources & projects (Creator, 2024~)
 
 ## Web 3
 

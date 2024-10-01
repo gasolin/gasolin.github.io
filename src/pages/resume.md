@@ -25,7 +25,7 @@ import ReactStars from 'react-stars'
         <tr>
           <td colSpan="3">
             <ul>
-            <li>Tether related Mobile App (Android/iOS) development</li>
+            <li>Lead Tether related Mobile App (Android/iOS) development</li>
             </ul>
           </td>
         </tr>
