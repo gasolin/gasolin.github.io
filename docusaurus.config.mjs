@@ -1,8 +1,14 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import { themes as prismThemes } from 'prism-react-renderer';
+import remarkEmoji from 'remark-emoji';
+// import mdxMermaid from 'mdx-mermaid';
+import remarkPangu from 'remark-pangu';
+import remarkOembed from 'remark-oembed';
+
+const lightCodeTheme = prismThemes.github;
+const darkCodeTheme = prismThemes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,11 +16,18 @@ const config = {
   tagline: 'The Web3 Engineer and Tech writer',
   url: 'https://www.gasolin.idv.tw',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'gasolin', // Usually your GitHub org/user name.
   projectName: 'gasolin.github.io', // Usually your repo name.
+  onBrokenLinks: 'throw',
+
+  markdown: {
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   presets: [
     [
@@ -22,14 +35,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.mjs',
           editUrl: 'https://github.com/gasolin/gasolin.github.io/tree/source/docs',
           remarkPlugins: [
-            [
-              require('remark-emoji'), {padSpaceAfter: true}],
-              require('mdx-mermaid'), // charts
-              require('remark-pangu'), // chinese/english space
-              require('remark-oembed'), // youtube, twitter
+            [remarkEmoji, { padSpaceAfter: true }],
+            // mdxMermaid, // charts (using @docusaurus/theme-mermaid instead)
+            remarkPangu, // chinese/english space
+            remarkOembed, // youtube, twitter
           ],
         },
         // blog: {
@@ -39,12 +51,11 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
-        googleAnalytics: {
+        gtag: {
           trackingID: 'UA-2833924-5',
-          // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
+          anonymizeIP: true,
         },
       }),
     ],
@@ -143,4 +154,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;

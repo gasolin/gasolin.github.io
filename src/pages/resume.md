@@ -8,9 +8,9 @@ import ReactStars from 'react-stars'
 
 ## Personal Information
 
-<li>Fred Lin (gasolin, 蓋索林)</li>
-<li>🎂 Birth Year: 1981</li>
-<li>️️✉️ Email: <img src="/img/mail.gif" className="email" alt="gasolin at gmail dot com" /></li>
+- Fred Lin (gasolin, 蓋索林)
+- 🎂 Birth Year: 1981
+- ️️✉️ Email: <img src="/img/mail.gif" className="email" alt="gasolin at gmail dot com" />
 <br/>
 
 ## Experience
@@ -193,38 +193,34 @@ import ReactStars from 'react-stars'
 
 ## Skill Levels
 
-<li>Javascript/ES6+
+- Javascript/ES6+
   <ReactStars
     count={5}
     value={4.5}
     edit={false}
     color2={"#155724"}
   />
-</li>
-<li>HTML5/CSS 
+- HTML5/CSS 
   <ReactStars
     count={5}
     value={4}
     edit={false}
     color2={"#004085"}
   />
-</li>
-<li>React/Redux 
+- React/Redux 
   <ReactStars
     count={5}
     value={4.5}
     edit={false}
     color2={"#ffab00"}
   />
-</li>
-<li>Python: 
+- Python: 
   <ReactStars
     count={5}
     value={3}
     edit={false}
     color2={"#ffee58"}
   />
-</li>
 {/* <li>Java/C: <ReactStars
   count={5}
   value={2}
@@ -237,17 +233,16 @@ import ReactStars from 'react-stars'
 
 ## Education and Certification
 
-<li>🎫 TOEIC: <span className="label label-gold">890</span> (Gold), 2014</li>
-<li>🎓 M.S., National Dong-Hwa University, Electrical Engineering. 2005.
-</li>
-<li>🎓 B.S., National Dong-Hwa University, Electrical Engineering. 2003.</li>
+- 🎫 TOEIC: <span className="label label-gold">890</span> (Gold), 2014
+- 🎓 M.S., National Dong-Hwa University, Electrical Engineering. 2005.
+- 🎓 B.S., National Dong-Hwa University, Electrical Engineering. 2003.
 
 <br/>
 
 ## Publication / Lecture / Events
 
-<li><a href="../docs/events/presentation">Lectures and Presentations</a></li>
-<li><a href="../docs/projects/project">Publication, Projects and Apps</a></li>
+- [Lectures and Presentations](../docs/events/presentation)
+- [Publication, Projects and Apps](../docs/projects/project)
 
 <!-- <h4>Web development</h4>
 <li>Frontend: HTML, CSS, JavaScript, React/Redux, Bootstrap</li>
