@@ -10,8 +10,9 @@ sidebar_position: 100
 
 ## Current Contribute
 
-- [pear-expo](https://github.com/gasolin/pear-expo): basic setup for react native web (expo) run in pear mobile/desktop (Creator, 2024~)
 - [Awesome Pears](https://github.com/gasolin/awesome-pears): A list of curated pear related resources & projects (Creator, 2024~)
+- [keetlink](https://github.com/gasolin/keetlink): A modern, searchable directory for Keet groups and communities. Discover and join encrypted peer-to-peer chat rooms with a beautiful, responsive interface. (Creator, 2024~)
+- [barechat](https://github.com/gasolin/barechat): Anonymous chat anywhere with commandline interface (Creator, 2024~)
 
 ## Web 3
 
@@ -35,6 +36,7 @@ sidebar_position: 100
 - [webapplate](https://github.com/webapplate/webapplate): A Mobile First Web App fromework that help you quickly start
       the mobile web app development. (Creator, 2013~2016)
 - Gaia: Web-based system platform of Firefox OS. (Contributor, 2013~2017)
+- [pear-expo](https://github.com/gasolin/pear-expo): basic setup for react native web (expo) run in pear mobile/desktop (Creator, 2024~2025)
 
 ## Ease Programming
 

@@ -19,18 +19,6 @@ import ReactStars from 'react-stars'
       <tbody>
         <tr>
           <td>Mobile team lead 👨‍💻</td>
-          <td><a href="https://tether.to/">Tether</a></td>
-          <td>2024/9 ~ present</td>
-        </tr>
-        <tr>
-          <td colSpan="3">
-            <ul>
-            <li>Lead Tether related Mobile App (Android/iOS) development</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>Mobile team lead 👨‍💻</td>
           <td><a href="https://holepunch.to/">Holepunch</a></td>
           <td>2023/6 ~ present</td>
         </tr>
@@ -38,6 +26,18 @@ import ReactStars from 'react-stars'
           <td colSpan="3">
             <ul>
             <li>Release and maintain the Keet Mobile App (Android/iOS)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Mobile team lead 👨‍💻</td>
+          <td><a href="https://tether.to/">Tether</a></td>
+          <td>2024/9 ~ 2025/6</td>
+        </tr>
+        <tr>
+          <td colSpan="3">
+            <ul>
+            <li>Lead Tether related Mobile App (Android/iOS) development</li>
             </ul>
           </td>
         </tr>
