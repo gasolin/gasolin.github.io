@@ -100,51 +100,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Articles',
-            items: [
-              {
-                label: 'Blog',
-                href: 'https://blog.gasolin.idv.tw',
-              },
-              {
-                label: 'DApp入門',
-                href: 'http://gasolin.idv.tw/learndapp/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/gasolin',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/gasolin',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'http://stackoverflow.com/users/669084/gasolin',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Linkedin',
-                href: 'https://www.linkedin.com/in/fredglin/',
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © 2009~${new Date().getFullYear()} gasolin`,
       },
       prism: {
