@@ -4,21 +4,19 @@ sidebar_position: 100
 
 # Projects
 
-<a href="http://stackoverflow.com/users/669084/gasolin">
-    <img src="http://stackoverflow.com/users/flair/669084.png?theme=clean" width="208" height="58" alt="profile for gasolin at Stack Overflow, Q&A for professional and enthusiast programmers" title="profile for gasolin at Stack Overflow, Q&A for professional and enthusiast programmers"/>
-</a>
 
 ## Current Contribute
 
 - [Awesome Pears](https://github.com/gasolin/awesome-pears): A list of curated pear related resources & projects (Creator, 2024~)
 - [keetlink](https://github.com/gasolin/keetlink): A modern, searchable directory for Keet groups and communities. Discover and join encrypted peer-to-peer chat rooms with a beautiful, responsive interface. (Creator, 2024~)
-- [barechat](https://github.com/gasolin/barechat): Anonymous chat anywhere with commandline interface (Creator, 2024~)
+- [barechat](https://github.com/gasolin/barechat): Anonymous chat anywhere with commandline or web interface (Creator, 2024~)
 
 ## Web 3
 
 - [stakerwatch](https://github.com/gasolin/stakerwatch): Terminal utilities for Ethereum staker (Creator, 2020) [npm](https://www.npmjs.com/package/staker)
 - [useDAPP](https://github.com/EthWorks/useDApp): Framework for rapid Dapp development (Contributor, 2021)
 - [@useDapp/coingecko](https://www.npmjs.com/package/@usedapp/coingecko): React hook to get token price from CoinGecko (Creator, 2021)
+- [DApp 入門](http://gasolin.idv.tw/learndapp/): Educational guide for Web3 developers.
 
 ## Utility tool
 
@@ -67,4 +65,9 @@ and facilitating the docs migration from wiki to sphinx doc system.</p-->
 
 ## Misc
 
-- [一二三輸入法](https://github.com/gasolin/typemethod123/)
+- [一二三輸入法](https://github.com/gasolin/typemethod123/) 根據字形音義的輸入法
+- [Stack Overflow](http://stackoverflow.com/users/669084/gasolin) contributions
+
+<a href="http://stackoverflow.com/users/669084/gasolin">
+    <img src="http://stackoverflow.com/users/flair/669084.png?theme=clean" width="208" height="58" alt="profile for gasolin at Stack Overflow, Q&A for professional and enthusiast programmers" title="profile for gasolin at Stack Overflow, Q&A for professional and enthusiast programmers"/>
+</a>

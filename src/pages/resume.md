@@ -5,7 +5,6 @@ import ReactStars from 'react-stars'
 <a href="https://www.linkedin.com/in/fredglin/"><img src="/img/btn_myprofile_160x33.gif" alt="link to my linkedin profile" /></a>
 <br/>
 <br/>
-
 ## Personal Information
 
 - Fred Lin (gasolin, 蓋索林)
