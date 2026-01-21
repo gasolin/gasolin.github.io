@@ -10,6 +10,7 @@ sidebar_position: 100
 - [Awesome Pears](https://github.com/gasolin/awesome-pears): A list of curated pear related resources & projects (Creator, 2024~)
 - [keetlink](https://github.com/gasolin/keetlink): A modern, searchable directory for Keet groups and communities. Discover and join encrypted peer-to-peer chat rooms with a beautiful, responsive interface. (Creator, 2024~)
 - [barechat](https://github.com/gasolin/barechat): Anonymous chat anywhere with commandline or web interface (Creator, 2024~)
+- [todomd-cli](https://github.com/gasolin/todomd-cli): Command line tool for managing todomd format files. Inspired by todo.txt-cli (Creator, 2025~)
 
 ## Web 3
 
