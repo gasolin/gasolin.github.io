@@ -4,8 +4,10 @@ sidebar_position: 50
 
 # Mobile Apps
 
-- Bitfinex, downloads > 100k [Android](https://play.google.com/store/apps/details?id=com.bitfinex.mobileapp) / [iOS](https://itunes.apple.com/us/app/bitfinex/id1436383182?ls=1&mt=8)
-- Keet by Holepunch, downloads > 20k [Android](https://play.google.com/store/apps/details?id=io.keet.app) / [iOS](https://apps.apple.com/us/app/keet-by-holepunch/id6443880549)
+
+- [Tether Wallet](https://wallet.tether.io/) in 2026,4 [Android](https://play.google.com/store/apps/details?id=io.tether.wallet) / [iOS](https://apps.apple.com/app/tether-wallet/id6759002210)
+- [Keet](https://keet.io/) by Holepunch, downloads > 1000k [Android](https://play.google.com/store/apps/details?id=io.keet.app) / [iOS](https://apps.apple.com/us/app/keet-by-holepunch/id6443880549)
+- [Bitfinex](https://github.com/bitfinexcom/mobile-app), downloads > 200k [Android](https://play.google.com/store/apps/details?id=com.bitfinex.mobileapp) / [iOS](https://itunes.apple.com/us/app/bitfinex/id1436383182?ls=1&mt=8)
 
 ----
 
