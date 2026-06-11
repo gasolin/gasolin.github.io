@@ -17,26 +17,26 @@ import ReactStars from 'react-stars'
 <table className="table-striped">
       <tbody>
         <tr>
-          <td>Mobile team lead 👨‍💻</td>
-          <td><a href="https://holepunch.to/">Holepunch</a></td>
-          <td>2023/6 ~ present</td>
+          <td>Tether Wallet team lead 👨‍💻</td>
+          <td><a href="https://tether.to/">Tether</a></td>
+          <td>2026/4 ~</td>
         </tr>
         <tr>
           <td colSpan="3">
             <ul>
-            <li>Release and maintain the Keet Mobile App (Android/iOS)</li>
+            <li>Took over the project and restructured the team's workflow, enabling the team to regain schedule predictability and meet shipment goals.</li>
             </ul>
           </td>
         </tr>
         <tr>
-          <td>Mobile team lead 👨‍💻</td>
-          <td><a href="https://tether.to/">Tether</a></td>
-          <td>2024/9 ~ 2025/6</td>
+          <td>Keet Mobile team lead 👨‍💻</td>
+          <td><a href="https://holepunch.to/">Holepunch</a></td>
+          <td>2023/6 ~ 2026/3</td>
         </tr>
         <tr>
           <td colSpan="3">
             <ul>
-            <li>Lead Tether related Mobile App (Android/iOS) development</li>
+            <li>Led development and ongoing maintenance of the Keet mobile app for Android and iOS with more than 10 engineers.</li>
             </ul>
           </td>
         </tr>
@@ -49,6 +49,7 @@ import ReactStars from 'react-stars'
           <td colSpan="3">
             <ul>
             <li>Mobile team lead to release and maintain the Bitfinex Mobile App (Android/iOS)</li>
+            <li>Built and grew the mobile team from one developer to more than 10 engineers.</li>
             <li>Develop the performance UI for the high volume trading exchange. Including the <a href="https://medium.com/bitfinex/diving-into-bitfinex-reporting-tools-ui-e40ce82410d0">Reporting tool</a> an the <a href="https://medium.com/bitfinex/stay-connected-with-the-bitfinex-app-58984bb94dac">Mobile App</a></li>
             </ul>
           </td>
