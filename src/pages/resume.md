@@ -25,6 +25,7 @@ import ReactStars from 'react-stars'
           <td colSpan="3">
             <ul>
             <li>Took over the project and restructured the team's workflow, enabling the team to regain schedule predictability and meet shipment goals.</li>
+            <li>Grew team to more than 10 engineers.</li>
             </ul>
           </td>
         </tr>
@@ -36,7 +37,8 @@ import ReactStars from 'react-stars'
         <tr>
           <td colSpan="3">
             <ul>
-            <li>Led development and ongoing maintenance of the Keet mobile app for Android and iOS with more than 10 engineers.</li>
+            <li>Led 1M+ download Android and iOS Keet App development and ongoing maintenance.</li>
+            <li>Grew team to more than 10 engineers.</li>
             </ul>
           </td>
         </tr>
