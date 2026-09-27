@@ -1,0 +1,42 @@
+.landingMain {
+    position: relative;
+    min-height: calc(100vh - var(--ifm-navbar-height, 60px));
+    overflow: hidden;
+    background-color: var(--ifm-background-color);
+    transition: background-color 0.3s ease;
+}
+
+/* 和モダン背景微光暈 (Ambient atmospheric glows) */
+.ambientGlowTop {
+    position: absolute;
+    top: -120px;
+    left: 15%;
+    width: 650px;
+    height: 480px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(142, 174, 198, 0.16) 0%, rgba(142, 174, 198, 0) 70%);
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.ambientGlowBottom {
+    position: absolute;
+    bottom: -80px;
+    right: 10%;
+    width: 550px;
+    height: 420px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(220, 154, 132, 0.12) 0%, rgba(220, 154, 132, 0) 70%);
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+[data-theme='dark'] .ambientGlowTop {
+    background: radial-gradient(circle, rgba(82, 110, 136, 0.22) 0%, rgba(82, 110, 136, 0) 70%);
+}
+
+[data-theme='dark'] .ambientGlowBottom {
+    background: radial-gradient(circle, rgba(180, 106, 80, 0.15) 0%, rgba(180, 106, 80, 0) 70%);
+}

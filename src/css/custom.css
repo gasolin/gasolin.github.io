@@ -4,31 +4,90 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* 和モダン (Japanese Modern) 全站色彩與 Header 設計 */
 :root {
-  --ifm-color-primary: #4f46e5;
-  --ifm-color-primary-dark: #4338ca;
-  --ifm-color-primary-darker: #3730a3;
-  --ifm-color-primary-darkest: #1e1b4b;
-  --ifm-color-primary-light: #6366f1;
-  --ifm-color-primary-lighter: #818cf8;
-  --ifm-color-primary-lightest: #a5b4fc;
-  --ifm-link-color: #06b6d4;
-  --ifm-background-color: #f8fafc;
-  color: #0f172a;
+  /* 基調色：薄花色 (Usuhanairo) */
+  --ifm-color-primary: #476882;
+  --ifm-color-primary-dark: #3e5c74;
+  --ifm-color-primary-darker: #365065;
+  --ifm-color-primary-darkest: #273b4b;
+  --ifm-color-primary-light: #527693;
+  --ifm-color-primary-lighter: #6386a3;
+  --ifm-color-primary-lightest: #85a4bf;
+  --ifm-link-color: #3e7e7a; /* 青磁色 */
+
+  /* 和モダン 背景與文字：鳥の子色 (Torinoko) 與 墨色 (Sumi) */
+  --ifm-background-color: #fbf9f5;
+  --ifm-font-color-base: #2c3036;
+  --ifm-navbar-background-color: rgba(251, 249, 245, 0.82);
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-height: 3.75rem;
+  color: var(--ifm-font-color-base);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* 深色模式：墨色 (Sumi) 與 青藤色 (Aofuji) */
 html[data-theme='dark'] {
-  --ifm-color-primary: #818cf8;
-  --ifm-color-primary-dark: #6366f1;
-  --ifm-color-primary-darker: #4f46e5;
-  --ifm-color-primary-darkest: #4338ca;
-  --ifm-color-primary-light: #a5b4fc;
-  --ifm-color-primary-lighter: #c7d2fe;
-  --ifm-color-primary-lightest: #e0e7ff;
-  --ifm-background-color: #020617;
-  color: #f1f5f9;
+  --ifm-color-primary: #8eaec6;
+  --ifm-color-primary-dark: #7a9cb6;
+  --ifm-color-primary-darker: #698ca6;
+  --ifm-color-primary-darkest: #4e708a;
+  --ifm-color-primary-light: #a2bed4;
+  --ifm-color-primary-lighter: #b5cde0;
+  --ifm-color-primary-lightest: #d4e3ee;
+  --ifm-link-color: #72b2ae; /* 水浅葱 */
+
+  --ifm-background-color: #16181b;
+  --ifm-font-color-base: #e6e8eb;
+  --ifm-navbar-background-color: rgba(22, 24, 27, 0.82);
+  --ifm-navbar-shadow: none;
+  color: var(--ifm-font-color-base);
+}
+
+/* 和モダン Header / Navbar 現代透光毛玻璃樣式 */
+.navbar {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+html[data-theme='dark'] .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar__brand {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ifm-font-color-base);
+}
+
+.navbar__item {
+  font-weight: 500;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.navbar__link {
+  color: var(--ifm-font-color-base);
+  opacity: 0.85;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+  opacity: 1;
+}
+
+/* Footer 和モダン統一 */
+.footer {
+  background-color: #141618;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .docusaurus-highlight-code-line {
