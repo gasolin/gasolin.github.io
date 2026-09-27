@@ -37,7 +37,7 @@ import ReactStars from 'react-stars'
         <tr>
           <td colSpan="3">
             <ul>
-            <li>Led 1M+ download Android and iOS Keet App development and ongoing maintenance.</li>
+            <li>Led 2M+ download Android and iOS Keet App development and ongoing maintenance.</li>
             <li>Grew team to more than 10 engineers.</li>
             </ul>
           </td>
