@@ -12,6 +12,18 @@ import ReactStars from 'react-stars'
 - ️️✉️ Email: <img src="/img/mail.gif" className="email" alt="gasolin at gmail dot com" />
 <br/>
 
+## Core Competencies
+
+### 🎯 Transforming Chaos into Clarity
+- **Workflow Engineering & Predictability**: Stepping into complex, undefined, or disorganized project environments, quickly identifying bottlenecks, and restructuring team workflows to regain schedule predictability and dependable delivery cadence.
+- **Legacy Architecture Refactoring**: Untangling intricate legacy codebases, resolving state management chaos, and modernizing architectures into clean, maintainable systems.
+- **Demystifying Complex Concepts & Tooling**: Distilling emerging or intricate technologies into intuitive, structured tools and educational resources that empower developers and learners.
+
+### 🚀 Turning Stagnation into Momentum
+- **Unblocking & Delivery Execution**: Stepping in when initiatives stall or hit roadblocks, realigning priorities, restoring team focus, and driving projects through the finish line.
+- **0-to-1 & Scaling Engineering Teams**: Overcoming the absence of dedicated teams by building and scaling engineering operations from an individual contributor into a cohesive, high-performing team.
+- **Driving Scale & Timely Delivery**: Mobilizing distributed cross-functional teams to deliver high-impact products and adhere to strict delivery commitments.
+
 ## Experience
 
 <table className="table-striped">
@@ -52,7 +64,7 @@ import ReactStars from 'react-stars'
             <ul>
             <li>Mobile team lead to release and maintain the Bitfinex Mobile App (Android/iOS)</li>
             <li>Built and grew the mobile team from one developer to more than 10 engineers.</li>
-            <li>Develop the performance UI for the high volume trading exchange. Including the <a href="https://medium.com/bitfinex/diving-into-bitfinex-reporting-tools-ui-e40ce82410d0">Reporting tool</a> an the <a href="https://medium.com/bitfinex/stay-connected-with-the-bitfinex-app-58984bb94dac">Mobile App</a></li>
+            <li>Develop the performance UI for the high volume trading exchange. Including the <a href="https://medium.com/bitfinex/diving-into-bitfinex-reporting-tools-ui-e40ce82410d0">Reporting tool</a> and the <a href="https://medium.com/bitfinex/stay-connected-with-the-bitfinex-app-58984bb94dac">Mobile App</a></li>
             </ul>
           </td>
         </tr>

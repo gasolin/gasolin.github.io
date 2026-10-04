@@ -13,6 +13,8 @@ which focus on share trending web and mobile technologies. -->
 
 Web3 engineer and open source contributor with 10+ years of experience. As frontend, mobile app, backend developer, network system integration engineer with 15+ years in Internet industry.
 
+Known for the ability to **transform chaos into clarity** (streamlining engineering workflows, refactoring complex codebases, and simplifying technical concepts) and **turn stagnation into momentum** (unblocking stalled projects, scaling teams from 1 to 10+ developers, and driving products from concept to millions of users).
+
 While maintaining and refactoring the large code base like Gecko (Mozilla Firefox) and Firefox OS frontend as a module peer, self motivated attitude helps me cross the border and have tracked records to create a project from ideas to reality (Android app aTrackDog notify app updates in early Android days and have >86k downloads. Web based visual programming tool BlocklyDuino is adopted by several STEM projects).
 
 The multi-position experience helps me put myself in other's shoes and make cross-functional cooperation smoothly (with UI designer, backend engineer).
